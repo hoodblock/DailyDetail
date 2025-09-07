@@ -1,0 +1,2343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		89C207232F1DD5784BF33C140E6B05B3 /* SensorsAnalyticsSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 894C51FA5CC2097CF51F537E0DE262D2 /* Build configuration list for PBXAggregateTarget "SensorsAnalyticsSDK" */;
+			buildPhases = (
+				692F3A52961A3C0D124EAB701967DDF8 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				9F3842E2B5EE6C51250CB0A231362A8D /* PBXTargetDependency */,
+			);
+			name = SensorsAnalyticsSDK;
+			productName = SensorsAnalyticsSDK;
+		};
+		B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 71B9A5BD1FADAE479D403809E582EC07 /* Build configuration list for PBXAggregateTarget "AppsFlyerFramework" */;
+			buildPhases = (
+				DB7C100E6D7A5CF954757DB8962D9B72 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				081285D27667E5056E922B7B5F99A343 /* PBXTargetDependency */,
+			);
+			name = AppsFlyerFramework;
+			productName = AppsFlyerFramework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0015562D5A907E165EF5A5C63117B5CE /* ZGVisualizationSocketMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 98BB29FB3D7C4FDBA490CD20BCE96F7B /* ZGVisualizationSocketMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02266E5EC96BB426BB970EE70B1EDA04 /* MPTypeDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 68449FE7D00A448267FE2A054079D041 /* MPTypeDescription.m */; };
+		050FB1837C69881B0B23BD4AEB723C83 /* _MPTweakBindObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E7A365A2DC09429A077C545889BCF7 /* _MPTweakBindObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0553AB3851AB1D47B973848AAE671275 /* MPUIEdgeInsetsToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 631122550B0A221757545BDEC5176E1C /* MPUIEdgeInsetsToNSDictionaryValueTransformer.m */; };
+		05EBEB85543856624596608C24CB93D7 /* NSObject+ZGResponseID.m in Sources */ = {isa = PBXBuildFile; fileRef = A666D3C7494F980DAA792FE5F48F8D51 /* NSObject+ZGResponseID.m */; };
+		0611A47273F0D06A12D7F480CFE5955D /* ZGAbstractABTestDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FC09697EFA33F9E157E7FC0145797B /* ZGAbstractABTestDesignerMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090BDAC14A4FD5C045EA393A35DBA95F /* ZGVisualizedTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A1DAE2C28DD4EE5CE3255301E94C1BC /* ZGVisualizedTool.m */; };
+		09CBFF7227D0DAA936E6A0A1AE209186 /* ZGVisualizationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 343028726AE44E63E8532AF0D6E01A15 /* ZGVisualizationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AABAF863A00BC2765358E8B1D074C5B /* ZGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A6BB00F71A3DDB6EF6EB2E71CFA1D9 /* ZGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BE2D860D2C203F5C23854AEBABA85F2 /* ZhugeBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 631ED0E25E1FACC35BFE13214F343D65 /* ZhugeBase64.m */; };
+		0C385CD02BD85048C4F9C7250DB98B7B /* MPObjectIdentifierProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B068AFBFECF40EBBF9302583B92B9C /* MPObjectIdentifierProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D593B6A9890947148DDC45AFA2AF912 /* UIView+ZAExpView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2290F016EDF87B9111BD1A3D3265BF /* UIView+ZAExpView.m */; };
+		0D85DCD7B25D7E661A819B85B32BD95A /* MPCGRectToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B807BC8C2E71A83D6F1641C986B4F89F /* MPCGRectToNSDictionaryValueTransformer.m */; };
+		0F32179D7CE0D8BCDF1950EDACE750A9 /* NSInvocation+MPHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D50890B1D60221D70B1A37FE04F90A1 /* NSInvocation+MPHelpers.m */; };
+		0F9CA555AAA4B33870F32BF783B39011 /* MPTweakInline.m in Sources */ = {isa = PBXBuildFile; fileRef = 5638AC5AE94D73E900EDFB8CDC489C1B /* MPTweakInline.m */; };
+		0FA335D06D7FF63F0CE7CCB8077847AC /* MPUIImageToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC704530779F05117C07B73AA4937C5C /* MPUIImageToNSDictionaryValueTransformer.m */; };
+		106276CA23340A1460CAF17156E9192E /* ZAConstants+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 2453313B8CB484A4A97C69D647F87F97 /* ZAConstants+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C38F933AD753A38F59F0FBE79E49E7 /* MPEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0E9600A440DDB9E14DB3D90DC5C92A /* MPEnumDescription.m */; };
+		11772F68F4CFFE6D2402CFA03A81B5C0 /* ZGVariant.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7A58A14A24B13C482C0A52028D1F2F /* ZGVariant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		132C5FC67420D41822F2AF2C2E71509B /* ZGABTestDesignerClearRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 428ED56195FB28A4D1F70E0DB291AA31 /* ZGABTestDesignerClearRequestMessage.m */; };
+		152ED71D5BA4A024FA48C5D6906CB828 /* UIColor+MPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5560D6E19AF0FBACE7C09B18D441D578 /* UIColor+MPColor.m */; };
+		154B306354EE57F7FF5366670B74E3EA /* ZGABTestDesignerChangeResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B238465A1BE7BFBE00DD414BF4379D /* ZGABTestDesignerChangeResponseMessage.m */; };
+		18387068B2C29B389E402C5842634D2B /* MPApplicationStateSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = DE09082C5ECAD99BD2956D68C420F204 /* MPApplicationStateSerializer.m */; };
+		1A2DA9D0D9DAC21F2AFB2CB36CC9D8D8 /* MPTweakStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 715B19DEEC69F8997E4BB198634BF5C3 /* MPTweakStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A31A4E7A62DAC06A4ACFC485D093D5F /* UIApplication+Zhuge.h in Headers */ = {isa = PBXBuildFile; fileRef = 302E7130CFE319C747B9E9E4FC987D9C /* UIApplication+Zhuge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A8EDBE3D2CFB484A48FD4A4E95D3976 /* ZGVisualizationSocketMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A5DACD5166EA6968117733C4049B96 /* ZGVisualizationSocketMessage.m */; };
+		1BEA9977B2C592E252845727798ED97B /* ZGDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE6BCA32878AE1B8EBF97E0083A29F1 /* ZGDeviceInfo.m */; };
+		1C694E303977DBDE388414AA884D883D /* ZhugeAutoTrackUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = BFABF90BE73A47008D23F2FBDDA39FAB /* ZhugeAutoTrackUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E088627707265860E9B5659D8FF6713 /* UIView+ZGView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AB205A6E15CC23F8D380EA2DC31F8E /* UIView+ZGView.m */; };
+		245FE35E00C40BDEA36B0F730B3F6FD5 /* ZGABTestDesignerSnapshotRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A31809800D4548676BB8A4B532E8C58E /* ZGABTestDesignerSnapshotRequestMessage.m */; };
+		265D520747D4372CBFDC990B7B2BF7EC /* UIImage+MPImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D27585C681E6CAA7C829C69E796FBB /* UIImage+MPImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2794C6537ED17BB037C65E3B2F7B1A3B /* ZGHttpHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F189EC238DA5A5E6DB89C0A88037458 /* ZGHttpHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2975EE48A3354FB7B85888765CADDA23 /* UIControl+ZGClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 8842A1DF31EE6DBEE9E6061B8EE70C09 /* UIControl+ZGClick.m */; };
+		2C5DD9983FDCB7414765735F76C50BFE /* ZGABTestDesignerDisconnectMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E4BB9771F3809947088959D42453DE /* ZGABTestDesignerDisconnectMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C9A5411235A4CFD5C681D9C2ECAF647 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAF735E00D2A60AD4BA9E54471653F7 /* Foundation.framework */; };
+		2D0AD9AE14706778544BC0227A60D8AC /* MPDesignerEventBindingRequestMesssage.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B04AB08A76E7BEF4183BDE4E70B72B /* MPDesignerEventBindingRequestMesssage.m */; };
+		2E32AD3E5CC8AC3745AC030C6351E8BD /* MPObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 8566612243A3861CAE91A05DDBDEE147 /* MPObjectSerializerContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EE6D273183A3298044E74FEB933F8E8 /* ZGRequestManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E9309CC3F55C36C4D726ED4F967B9BD /* ZGRequestManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F7CB8E2D341EDCB7F249B6D443C584F /* ZGIDFAUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C2D615F3FD78115684506A02E2ED58 /* ZGIDFAUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3095D5C781951254863ABCAE21C290E1 /* ZGDeviceInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E32FD50D1A6602CFA88F47050416355 /* ZGDeviceInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C89433C957FE729BBA84EBFDDE8C7D /* MPUICollectionViewBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 669FCC187FAD44FBB1AD2988D1EB21C9 /* MPUICollectionViewBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35A40E4192059E9FB550C701437D770C /* ZASwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3497165747FDC70078AF3168F79F8AE7 /* ZASwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35BB416E1D78FAA7E4A004A986070808 /* UIImage+MPImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D33A0F7C2543F140D0D28F3923B8B9 /* UIImage+MPImageEffects.m */; };
+		36795149E5B76DA1A22767F82349D50C /* MPNSAttributedStringToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E4F27DB3472B5E42B53C7D8514F03975 /* MPNSAttributedStringToNSDictionaryValueTransformer.m */; };
+		380F31005719C17A2519C4F989D9CC07 /* NSString+ZGMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BEEF209AD705043224328860CE67D77 /* NSString+ZGMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387866F1DBD386AFD2FA0A87322EEB2A /* MPUICollectionViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0EBE899EEE16868A96465B0F7E4689 /* MPUICollectionViewBinding.m */; };
+		39BF425675EEDB7EBA093F8D59866FBE /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 840FAD0248F40DFD4D6866E379E4D331 /* PrivacyInfo.xcprivacy */; };
+		3A69CB2A81130F35F4FB024B237763FD /* MPDesignerEventBindingMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 955D89E91BF62E915180F5ECBF6170D1 /* MPDesignerEventBindingMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B645B9C61C9BDD25EC573FD88CF3CDE /* ZAViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 147BAE2B7CE1D42F634F010515BDBF46 /* ZAViews.m */; };
+		3BD4A0C0AB608626C9B9615E05852B60 /* ZGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B74B6D0E6C5C7385369EE6B4C4ED3C5 /* ZGReachability.m */; };
+		3CD07C8CC77070DBC060F8DFE28960E0 /* ZADelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8AA6CA36427BCF1FE4525B000A6EC4A /* ZADelegateProxy.m */; };
+		3DE4DCB0EFECA3FF031952279F5D230D /* ZhugeJS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3661241F3C1DFB580F74D24FB5BAC /* ZhugeJS.m */; };
+		3E0D7B56F350F210EF2CAF75B0B27E61 /* MPUIColorToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = B807C2389EDC8C4CC59BECEE0065CB10 /* MPUIColorToNSStringValueTransformer.m */; };
+		3EAEA55836318D4A95C40D364C922438 /* ZADeviceId.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE4FF79D7CCB51F7611FE53BFBD62C4 /* ZADeviceId.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F6C76DA8EB7417BF3CD95E27C73B04A /* MPObjectIdentityProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E29E9CAB7A2C5DF0852CDC23F591DE24 /* MPObjectIdentityProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		416907253549A51B7977D0B25C18613B /* Zhuge.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E6793A027D892B1198A2D29B50192F /* Zhuge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D19E320A9A64E9D07BAC4449BD2D67 /* ZASwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 222841597B5AB8913FA9DF6BB474FEE4 /* ZASwizzle.m */; };
+		45904F491B520F362922E735662C7F6A /* MPTweakStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 984304153858908BF8E9174590DCD678 /* MPTweakStore.m */; };
+		46E21252C544F37BD49D354906F16890 /* MPTweak.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F5691BC1D830089FD509174ED0AD87 /* MPTweak.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4774CCD28F4D654E364F9A43BF63846C /* MPCGSizeToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B6430EA37095298BCC9BFEB8FC158 /* MPCGSizeToNSDictionaryValueTransformer.m */; };
+		498814222D17AC1EFD8155FBA686B905 /* MPCGAffineTransformToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B5B039BB1AD6B52309E930E4575EC /* MPCGAffineTransformToNSDictionaryValueTransformer.m */; };
+		499663968FB0815B33EF2E7A9E6984F4 /* ZGABTestDesignerSnapshotRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BA2F1E97AEEF662528A187CBA26F94F /* ZGABTestDesignerSnapshotRequestMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2F888409C8973B8B68A0A4B9EE365D /* SessionMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = 59C430FA58604C7ABB3F362C7D97518D /* SessionMetadata.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B88D22DA20665074FEBDD406828E1B1 /* ZAMethodHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 67547A0F9D8EC8D3A7D1B22AF1E8B0C0 /* ZAMethodHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BBBF29C8B18905550E63CBD7E38CF95 /* ZGABTestDesignerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EC6A90C9F50C0F8A7CF1262BB856C2 /* ZGABTestDesignerConnection.m */; };
+		4C1EAD0F773FA74661EE42D8B66EC86E /* ZhugeioAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B696ED5FCC72A676B390B72F0FFA459 /* ZhugeioAnalytics-dummy.m */; };
+		4D386A28487243AAFC63EECAAAA05EE6 /* UIControl+ZGClick.h in Headers */ = {isa = PBXBuildFile; fileRef = 91899F74362A7E3277D45F003692CE40 /* UIControl+ZGClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D636DA749C8AEE4F137E05B3771CB03 /* MPSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B02B205CD5E0A25E72616FC83A3AC8 /* MPSwizzler.m */; };
+		4D70050A834B9B1A688CBFAC1829CF17 /* UIImage+MPAverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BA9BBF10C59DA7E618C3482D25E70F /* UIImage+MPAverageColor.m */; };
+		4EA6B9A30D9DB426EB31159D4B73BB2E /* Pods-dailyDetail-dailyDetailUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8917710F109D850E5BD0452422573A47 /* Pods-dailyDetail-dailyDetailUITests-dummy.m */; };
+		5028CF43CA33513FA6C352AE8B5A1038 /* UIGestureRecognizer+Zhuge.h in Headers */ = {isa = PBXBuildFile; fileRef = 2848CDE072D24EA72A1C1E4BFDF20EF2 /* UIGestureRecognizer+Zhuge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5099EDBF6F3148003DADA0135D523747 /* MPApplicationStateSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = D8AA82E78AB1E9AF7B26685B1A84B51F /* MPApplicationStateSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		519E122371F23171BB1963A92233F090 /* ZhugeBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5A251AA89EBA6B21A76EA9A83D22DB /* ZhugeBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52361483FE1BFCBC0949A2C28BBD9EF3 /* MPDesignerEventBindingResponseMesssage.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEFDB6B8EAB97FC135B9A4D1187E8E6 /* MPDesignerEventBindingResponseMesssage.m */; };
+		534FB0F8BDB0C8E856E7FAEE7F18D137 /* Zhuge.m in Sources */ = {isa = PBXBuildFile; fileRef = ED32ED6D5BDF1D95566E8B0AEE5A938D /* Zhuge.m */; };
+		555439756F4F0D686D4668E93A3298F3 /* ZGVisualizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EE0DD9D2B73C750BE7E143533C0614 /* ZGVisualizationManager.m */; };
+		5602426BAEB2B811C69D55BC6F1832D0 /* ZGABTestDesignerMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C829812DCB16C6DCEC0BAA7F1B6F59DE /* ZGABTestDesignerMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57B3D6B316177E0EDC15B112309DAA57 /* ZGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B400587C0D8A5ADB8D3CDE82CA7FFCB9 /* ZGUtils.m */; };
+		58DCFAA8A4E1241AEB037299FBD52FD4 /* ZGRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2117EA77994333204B55081920D14E /* ZGRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A171FEEB0D0FCDBDE6FA3A2CD64D6F2 /* WKWebView+ZABridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 17ECE1BD4A73ED61F52C234CC0E270CA /* WKWebView+ZABridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A3A189A3D7AB5F96F9A85D05E02967E /* ZAMethodHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C9F4BE1F149DB0476067D8DD367849 /* ZAMethodHelper.m */; };
+		5C092A14FBE06A1BC54E00D4C9FFE87F /* ZGIDFAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0373BB61F876C83DA8A7E7A00B30BB9A /* ZGIDFAUtil.m */; };
+		5D7DABCBDC14DE92848785F846C68AEE /* ZGWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDB11FFEF142EAF692B9C53D81D8929 /* ZGWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60A7246CA0D8194C85123D685F8BCB21 /* ZGABTestDesignerChangeRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D77044104C15AF0902EB2E338E4B5AB /* ZGABTestDesignerChangeRequestMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D4ABF682BDD72F004E94001A9712EC /* ZhugeJS.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D69283ECFE89E356778896036D139BD /* ZhugeJS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D0B9DE9F6AD49CD1D03BC34E2A033E /* ZGABTestDesignerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6055506EAFDA2F5A0971FC42D1FB3CDF /* ZGABTestDesignerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633B8970C17F10109914D75770CCA4A6 /* NSTimer+ZGWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FFD8FD8A8BFBB70284B3FB359CBA13 /* NSTimer+ZGWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		661278B68A0A81B915394AE11FE0419F /* MPObjectSerializerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3D2B9DED81F20C522E96445B22D3F0 /* MPObjectSerializerConfig.m */; };
+		68D143B1D4A97A529EB0C6694960957E /* ZhugeConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B28DCD87E407FF0812A61F87B7E77EAB /* ZhugeConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6927597D3063E1AFC7889AF589448B5B /* ZGABTestDesignerChangeResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = CBEBF90F0598505A90E3D0066F3CC5B7 /* ZGABTestDesignerChangeResponseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A8CFC2C5394957F4FE1B35161010F8B /* Pods-dailyDetailTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F28D58047F74FE430ABBB6627655858 /* Pods-dailyDetailTests-dummy.m */; };
+		6CA34F42C874C5D47853C8357A42B1EC /* UIView+ZAExpView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FFF047F9733AB4F2BD765E774D0282 /* UIView+ZAExpView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D7946FBDA604E23A29BD743BA53EE72 /* MPABTestDesignerTweakRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A12CBC51791850BC2BCE02E1F35116DF /* MPABTestDesignerTweakRequestMessage.m */; };
+		6D98BFF6FB00025D6404A2775A2B384D /* _MPTweakBindObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFF748A788251977FF9940983D5C85C /* _MPTweakBindObserver.m */; };
+		705E3543D0F4390C3873A84CACE3E03F /* UIImage+ZGDifference.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A265BE72D5B51C9F499324A6BC1D23 /* UIImage+ZGDifference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70CA8C097D0FF61C123F82F25247EAC0 /* MPObjectSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C58E18B9049F98A9431AA6FDE74202 /* MPObjectSerializer.m */; };
+		7152FF6C1A49822D54EDC841DD2E664F /* NSObject+ZACellClick.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB59E97821493715B307595E275E518 /* NSObject+ZACellClick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73FB4914323F76DFB953AEEC4DBC8672 /* MPValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = 848EF173C89DC3DBAFDCA8E39DB7501E /* MPValueTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		760016FCAF8CA234288C2FF9E12190E7 /* MPCGColorRefToNSStringValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8303BCB3222B34E72609A58B2223FBB9 /* MPCGColorRefToNSStringValueTransformer.m */; };
+		79C7E097E27835B78AE38669F8446585 /* MPTweakInlineInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E19963B0660CF6DB5776495B7D7C27 /* MPTweakInlineInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D9D2FD8CF581566F6A8B8C2AFE63391 /* ZGRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB7E7A83E070DBA3C4279894016F667 /* ZGRequestManager.m */; };
+		7DD060EF8884F685B7B4B3CBC95121FD /* Pods-dailyDetail-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A236FCB74524668C68E17D36982B13D /* Pods-dailyDetail-dummy.m */; };
+		7DEBD798293936BAD316D5AAE40083C9 /* ZGUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 968165A60A381DEA34A60909409333E5 /* ZGUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FED46071C3E93F46AC5C2F1CAEBE0B0 /* MPPropertyDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FD13DD5DC2EF8B7FEAD165D8102B18 /* MPPropertyDescription.m */; };
+		800299FD2E0BDF4E08A16CCB6A8F55F9 /* ZGABTestDesignerClearRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AF5C69878616F6BA3FA18B880E2EA04 /* ZGABTestDesignerClearRequestMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80912A42E4C53A6B273DFB0BB4699F1C /* NSThread+Helpers.h in Headers */ = {isa = PBXBuildFile; fileRef = E4ED3A4514BCD58F1E19314FA70B6FB6 /* NSThread+Helpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81096355EBF0E74D0CAA32C6DE8B6B66 /* ZGABTestDesignerDeviceInfoResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 51652DEB9161818CFE8EDF5DC8FBCE03 /* ZGABTestDesignerDeviceInfoResponseMessage.m */; };
+		81145ADD19698916A6C52264872CA14C /* MPObjectSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B1E3305B961FCD274FFD99248BDDA9 /* MPObjectSerializer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		812B5B879C1D7E5F551B00525E32C8B8 /* ZhugePrivates.h in Headers */ = {isa = PBXBuildFile; fileRef = D69B8EA0B2B03803C32988DD0E285DD1 /* ZhugePrivates.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81916CD5D7A0C7715083C396C8A16A3D /* MPCATransform3DToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 133CF93614C6BCC7C35D0F5E3CDD247B /* MPCATransform3DToNSDictionaryValueTransformer.m */; };
+		819D64868F97CA7E0A98428E3B06EF18 /* ZGVisualizedTool.h in Headers */ = {isa = PBXBuildFile; fileRef = CFB521E2884E12775E89FFA5E0BFC6E2 /* ZGVisualizedTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8290265CE9FC336364AF98A15602D134 /* MPABTestDesignerTweakResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C824588E7396F2432D2CD7C12BDFEB99 /* MPABTestDesignerTweakResponseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8366D4785A15A3B9F98A2F38F7DCDD62 /* ZhugeSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AA2B3251FA401099AA8D967F8BBC4E /* ZhugeSwizzle.m */; };
+		8410FCCC72F02DA4192C61C5E2DAA180 /* ZGEventBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97329CEB5DE4D4D7F3371E6E1BDE90 /* ZGEventBinding.m */; };
+		841F9E5BBF0619BA8FEA48898D0BB861 /* ZhugeSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = AB253163E3DCCE5562E8412F6335918C /* ZhugeSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845DF52FDE71E0952BD88545E007DAF4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B844B31778A4EEB566AF063949C5A5C6 /* SystemConfiguration.framework */; };
+		84F2FF48C8A8DE8F0FF4034B181E11B8 /* ZGABTestDesignerDeviceInfoRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 473D97AB8F8C8C37F7BE711E6FD6DA98 /* ZGABTestDesignerDeviceInfoRequestMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86B8BDA8532FD4F38481D0914B84E1DA /* ZAClassHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F427AFBFBE3872174F985EAAAFB3098 /* ZAClassHelper.m */; };
+		86CA13065911C79780ED1FD7F2A963AD /* SessionMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = 23E4302F56D97EE9FBF2989F0DE66795 /* SessionMetadata.m */; };
+		871813F4251DB203AE22AB80A86EBE1E /* ZGABTestDesignerDeviceInfoRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F55B7826570EB3715B982D396DD78D0 /* ZGABTestDesignerDeviceInfoRequestMessage.m */; };
+		8782B040ECEF0E736B1C27B1C77E761D /* MPUITableViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = A05A0F08010FC507D4080F3AAFA1E025 /* MPUITableViewBinding.m */; };
+		87C55810486585B44922E0D5FAD199F0 /* ZGSharedDur.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FCFE826275153F8364F24F1D88ADCAB /* ZGSharedDur.m */; };
+		87D39E3FAFD8B07BAAAD4F351C49F4D6 /* UIViewController+ZGAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9543F433074FCBEE667B475D57EAE5 /* UIViewController+ZGAutoTrack.m */; };
+		8968D070E114E39A94B324231BC857D9 /* MPPassThroughValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D1C56F76D8E90DD19094A61B040302 /* MPPassThroughValueTransformer.m */; };
+		89D5CEEF54C6AB03B2494B7DA8AFF89A /* MPBOOLToNSNumberValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = EF2B88079E50C2025471AF32CBAFAC20 /* MPBOOLToNSNumberValueTransformer.m */; };
+		8B4F425B6B240CEE72D1D734CF2F4F39 /* ZAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8E7369E897285E1CE2C197F9C2F2E1 /* ZAConstants.m */; };
+		8B71F38545A9718C4334742420E96144 /* MPSequenceGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = B0ECAA89DFB69A4D87211E3920301C8D /* MPSequenceGenerator.m */; };
+		8E553B8E29DADC4C65E367A4617A7969 /* UIGestureRecognizer+Zhuge.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A0754154B153FA5329625572E920F /* UIGestureRecognizer+Zhuge.m */; };
+		8EB0771E0AD06D14005ACFAD7AA6B8F6 /* ZhugeAutoTrackUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5600E267399A39E99E1CBC22665E05BE /* ZhugeAutoTrackUtils.m */; };
+		8F1EFBFE97989291C73ABDC2F7FE9EAB /* MPABTestDesignerSnapshotResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B5F9C87FD0E796395DABC15340F7316 /* MPABTestDesignerSnapshotResponseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9213A4CF26A57BA9452F58FE0337BE1E /* MPEnumDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE1DE5664EBFA4FCFF3386E86BCF7D8 /* MPEnumDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		923A1FD797AF1CA844DB40B83E36B0A1 /* NSThread+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 168EF8CE9BE84F3D6198A6B15DCA02AE /* NSThread+Helpers.m */; };
+		940C618D53AFF3A066F2CBE6A20B677A /* ZGABTestDesignerDisconnectMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD3DB037A1610318C72B528315863D5 /* ZGABTestDesignerDisconnectMessage.m */; };
+		94CBD1EAE1E39E5B395604B852B9580A /* UIScrollView+ZGAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = A6C127F6DA2A6239E71CBF77D33A889D /* UIScrollView+ZGAutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954F1D1F9270B9C75444EEE9C2103909 /* ZGCMMotionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 30D37A714FB9046E5BB3FC78E1E3BF1E /* ZGCMMotionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98131A2DE2039C62994D1F70DB6A3B1E /* ZADelegateProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FF4ADF505E778745A50925162D2B0A4 /* ZADelegateProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		987CFBBC80F3F34526B8C5DDF321D277 /* ZGCMMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 141448D05DB6EEB335B6743B16497C92 /* ZGCMMotionManager.m */; };
+		9B251241D1B71A6D9BEC7622E5624963 /* MPDisplayTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA756841559FABC3BA020272C0095E5 /* MPDisplayTrigger.m */; };
+		9B7B53CDF276CC3C0AFC6E421218410B /* MPUIFontToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = ADB3C6764205C0D9F9EE0E1C88E3FA53 /* MPUIFontToNSDictionaryValueTransformer.m */; };
+		9D4AD3487254F814D7B0EF5ECCD5B657 /* NSObject+ZGResponseID.h in Headers */ = {isa = PBXBuildFile; fileRef = 73915BFA1E77D3862E21E98F8EF867B5 /* NSObject+ZGResponseID.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E37FBCEC002A927B62227F2A04A761C /* RSA+AES.h in Headers */ = {isa = PBXBuildFile; fileRef = FBBF34F78B6F18142D56FF1EAF44C321 /* RSA+AES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A010E324F8124E784AD0D92078638CE3 /* ZGABTestDesignerDeviceInfoResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FA697C88EE65396DD2830DCE24D30558 /* ZGABTestDesignerDeviceInfoResponseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0321C39573F64883C42885CBB2EFBB2 /* ZhugeCompres.h in Headers */ = {isa = PBXBuildFile; fileRef = E98C0C3C095BE957B17B450A3F701759 /* ZhugeCompres.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A052A631DF5C5A4667057F595EB4CD7B /* MPCGPointToNSDictionaryValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FC3D0D15C38666043C98D52CF4022E /* MPCGPointToNSDictionaryValueTransformer.m */; };
+		A0A713896CC1976EF3347472E484106D /* Pods-dailyDetail-dailyDetailUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 591C473A454F31A7D1C5C099C605B10D /* Pods-dailyDetail-dailyDetailUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A22503EAE94FA9E12159A42F2EEDB754 /* MPUIControlBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F5884821AC3E4DCE04A2CA3E62D13F /* MPUIControlBinding.m */; };
+		A2811CF5200D31F5E1B12504104D4927 /* NSInvocation+MPHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CA5DC275AFBC54F7B6415109AAE0C2 /* NSInvocation+MPHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3A0544177030D00F8AFC581F5F97A24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAF735E00D2A60AD4BA9E54471653F7 /* Foundation.framework */; };
+		A451C2D7C4A0966ACFE26E5BD718264A /* ZGABTestDesignerClearResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C74BF74D8A58C5652301C0397B52DB86 /* ZGABTestDesignerClearResponseMessage.m */; };
+		A4B18B150A72293D2BEF2FF097521CF6 /* ZhugeConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = FB062D93BDD2EB53496536AE5A36ED20 /* ZhugeConfig.m */; };
+		A582EE9D17042867CEB92485E3FE388E /* UIView+MPHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B2C2C73E092F86087DF19639283E44 /* UIView+MPHelpers.m */; };
+		A5CE4CD17D5DFEB4D7A18B18C6099FB3 /* NSTimer+ZGWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F3F8137CC7F5FD95380CE9AA2826701F /* NSTimer+ZGWeakTimer.m */; };
+		A82471852944820FBAB6C9ACB0F34143 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D6CA0DBF0C564C15B1D03EF3A59DD26 /* UIKit.framework */; };
+		A953FE9DFD4FAF7F3636FF0A781CD66A /* ZAViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 2839EC83420BB70D9FA96DBA7D48B0D6 /* ZAViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA3770FA8D553414488A8D8BE3A62D93 /* MPNSNumberToCGFloatValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4573117ED7075428DD725E154E9E1E42 /* MPNSNumberToCGFloatValueTransformer.m */; };
+		AB175263B800B6261990241E167B61C1 /* MPTweakInline.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B7CB0BBCD332375A3F8F8B1648FFAD6 /* MPTweakInline.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACB54B0982E54AD3260E20BA76B5FD55 /* ZGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 30890F4CDCF5DF6D12281E3DFEBD5F2C /* ZGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE0DACFB95AD51A8198C5FB52DA76296 /* MPSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3487D125C782CA15501D73DBEAA803 /* MPSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AED864CEA42FC74960C3495B2FDBD3B5 /* MPDesignerSessionCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 145BCCC823841A0C133445C9549D7171 /* MPDesignerSessionCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1D4899424A570541A2984090C8763BE /* UIApplication+Zhuge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0078284C4EDFF6C1356F0D19B094EB88 /* UIApplication+Zhuge.m */; };
+		B2DD8AA2EA3FDAC2EC39261FFA78903E /* MPTweak.m in Sources */ = {isa = PBXBuildFile; fileRef = C1EFEF4B21B1389C1B7C17893AC92FB1 /* MPTweak.m */; };
+		B340FCDDAE23BB7B92DE5F0AF290D599 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAF735E00D2A60AD4BA9E54471653F7 /* Foundation.framework */; };
+		B417BBBD619BFE3EF79A6552E90B6193 /* NSObject+ZACellClick.m in Sources */ = {isa = PBXBuildFile; fileRef = D6111EFC9EA15015A11330A7E95F56E4 /* NSObject+ZACellClick.m */; };
+		B4264E4F5AA63D941B9CBB7CEE24C701 /* MPObjectSerializerContext.m in Sources */ = {isa = PBXBuildFile; fileRef = A89B9C43DB0BFB8CE2B778294CC94483 /* MPObjectSerializerContext.m */; };
+		B48B7B8790DC8261060966D829DBB9EE /* ZhugeCompres.m in Sources */ = {isa = PBXBuildFile; fileRef = 432932D675742A6EBB7E9FAB92DD62F8 /* ZhugeCompres.m */; };
+		B4A715F1837D402B2CAE0C44098503CA /* ZAAutoTrackProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DE68123D3ADCE6E808C9C0E65C4F2574 /* ZAAutoTrackProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B94A032594B586FE689FE077A1B61EC1 /* ZGHttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0103A65231767D5292862152DAA1D6DD /* ZGHttpHelper.m */; };
+		BDB27A54E6EAD7A6312F7F51A00002DA /* MPDesignerTrackMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 17849BF52711B0F7F1E1D9B9E1FC78C6 /* MPDesignerTrackMessage.m */; };
+		BE3BA38F83DFE976B6CF8CEA120772A4 /* Pods-dailyDetail-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C78DBC17C63DF820647558A33920100 /* Pods-dailyDetail-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFA87EA56A648AA7E810A5547F5E99BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAF735E00D2A60AD4BA9E54471653F7 /* Foundation.framework */; };
+		C0D6298E1B80BBF8E98AC97DF84459E5 /* UIView+MPHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F23189208CC1CC904663419A5F9B523D /* UIView+MPHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C18F2EFD6804DC36D07548784C675BEF /* MPObjectIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = AFB5FE7170790BC5E2F6BF72794D9463 /* MPObjectIdentityProvider.m */; };
+		C26A90E4AB8EB39BC97BCB6937B12042 /* ZhugeHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0BC940EE31F4055A4F8BE18253FC1E /* ZhugeHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2CCA53925169EA22CD4DDEFEE0312AC /* ZAClassHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 66D57FB9FA1EFFBC0AB3E60962331087 /* ZAClassHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2F05FF9B06EA1A814ECAC395D164AD7 /* SelectorEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C95030D03889CA96E4C11F58DCA1E4 /* SelectorEvaluator.m */; };
+		C47ABCD5FE693963D57BEA07552C48EE /* Pods-dailyDetailTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1BD3F00DF48FCAE582EFE41A916A99 /* Pods-dailyDetailTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C698EBA88BC48572678C5F8A48A2F204 /* ZGSqliteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BD7357C8F78B91D7F2B4C174019F4FE7 /* ZGSqliteManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FFA9A77C8F30414CD172B6D1FF79AA /* MPPropertyDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = E24FDABA27E81F6443F313D33B09C924 /* MPPropertyDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7AAEDF54E02F24E2B0309AEC78FEF19 /* ZGAbstractABTestDesignerMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8B5A7B3F05A7AC519E7256AD1A31D7 /* ZGAbstractABTestDesignerMessage.m */; };
+		C7DD6D016F9F8ADE6F49CE260C335CF8 /* SelectorEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A28FB62CBEC786C410D9CDB56D4F98 /* SelectorEvaluator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1D945443F4B24936B55DC7F93B12F4 /* MPClassDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 584D6B5B936A0F6696D3C4E8FA02C75A /* MPClassDescription.m */; };
+		CB2056D1DD41065DFAD74C5BF3C486EC /* ZGABTestDesignerClearResponseMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0148828F2A8C954EB73A55662EE287 /* ZGABTestDesignerClearResponseMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCF2D6F9CF1FD5B65105CB3245F8B158 /* ZhugeEventProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = A40F57A395D4A8E3814B63DDB0FC5F33 /* ZhugeEventProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9976657F35867B235CC3503B9FC651 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 0F49B0DDFB7D0F3C4DFECE248270ED33 /* PrivacyInfo.xcprivacy */; };
+		D0938294227BD73CDB9030779BB9BCAA /* ZGSqliteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DA85FDB0DA5C4A9A4A6B0D482E29518C /* ZGSqliteManager.m */; };
+		D10A193ED8520C3F9F0BFA0F358FACF0 /* ZGABTestDesignerChangeRequestMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2CD95302A0D8BA597EB5D09EB81CE /* ZGABTestDesignerChangeRequestMessage.m */; };
+		D1456C92552C4CBE216573F5E7D85DD6 /* ZGEventBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7773914C0409763C6D5E561D4128FBAF /* ZGEventBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1D0E7571E22030BBA3E14530EFEAFA3 /* UIWindow+ZGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C112A7AD7C9F65A7F512DFD3EB5E00 /* UIWindow+ZGView.m */; };
+		D553BF494E37BC2CB5DDC16190A34E46 /* UIWindow+ZGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACC332F9BBB3EA1CC8D444F2A93E431 /* UIWindow+ZGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6FE5951541CB87A36A438D5A7D20BEF /* ZADeviceId.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A27CC5B467F22445F800BC2E962C0F /* ZADeviceId.m */; };
+		D76CA6AB7E7B17F7DFB72531FD63F415 /* ZhugeConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FBA876E61FCB15E206A7ACCB77261AB /* ZhugeConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D773E0ABA1DD140A768D5CBE1E8B2520 /* WKWebView+ZABridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A90F83DD21D06A56B35F7DBA5D6320E /* WKWebView+ZABridge.m */; };
+		D8DC36C0FA6952C120429E11DDE925C7 /* UIImage+ZGDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 075461FC94462469B7B9D876B0E9BE54 /* UIImage+ZGDifference.m */; };
+		D9B1CE5FB1CDBFAFB3381DBC825E920D /* MPUITableViewBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = DC66FCFE848B3CED7AE856FCABEFFD23 /* MPUITableViewBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9E716B5EB8E5DB4A6BD61B23F583865 /* UIImage+MPAverageColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 650D548EE7DF8D8DB72E30A0B1FA7A18 /* UIImage+MPAverageColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA942EEAD83F72F58CF61E6DCF6C1BD3 /* UIColor+MPColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1E0EAA48BC98BD6FFE89E36AB89E2D /* UIColor+MPColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCEEB6264C91109362842558C7EE8A8F /* MPObjectSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6791E397FFF69841FA0444F571089B /* MPObjectSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD3BBBF19856C54A637ACABA5EACDA1D /* ZGWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD30B8A287EFADC6D4CE07484387142 /* ZGWebSocket.m */; };
+		DE9C8A9123E05C9B1266FF1B5B1ACE9E /* MPFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = B65974F9FC83C37762324F260E923AD8 /* MPFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEFF4C519FA786F13E4E9E0B90EA1E2A /* MPObjectSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = CA716081233648C4A88C14A8A0406CE6 /* MPObjectSelector.m */; };
+		DF3C14FB4EE4D1A16A8BEADCF075CBAB /* MPSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6383A63865E37E4D6051726803E028B1 /* MPSwizzle.m */; };
+		DF7C637DE25679F9BF7191BEF467C29D /* RSA+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D9684B67B8752135BA728DF2CFBD60 /* RSA+AES.m */; };
+		E0777958EE5250C999129A13FCFBE532 /* ZGUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F92B9C564A5CA363A89BA0EEE0FD5570 /* ZGUtil.m */; };
+		E12CEE60A0211F46ED320845C596E379 /* ZGSharedDur.h in Headers */ = {isa = PBXBuildFile; fileRef = FD47C4792E218FE02A4E3D7BD5168583 /* ZGSharedDur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D87A4D72DB63E42BFDE347B9A29621 /* UIView+ZGView.h in Headers */ = {isa = PBXBuildFile; fileRef = D4B166DD9DD0565A28BC6E00C3AE5F56 /* UIView+ZGView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E346ADB675C9BC227EC42490E407250C /* ZAConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA279ABD8E09220B3A0DD99F73F33A2 /* ZAConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E74C45AFEA688DE396BDA2433F5136BD /* UIViewController+ZGAutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C53B19A8EBC396195B22D474AB51B0E /* UIViewController+ZGAutoTrack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7F67032C96ADC6713AE020C0E2346ED /* MPABTestDesignerSnapshotResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE773528113344A4EB2BAF3BD593AAD /* MPABTestDesignerSnapshotResponseMessage.m */; };
+		E8E45E8281D4128B31DBEB6E4EBA9C16 /* MPSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC0E2E8E3C98DDBF464054145A40047 /* MPSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED7E96DC14B9A80AB3B3323D7649210E /* ZGVariant.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5B7871CC1B853379D4340C8ECFD49E /* ZGVariant.m */; };
+		EE9674EAE2E756FD077BAC401A681A42 /* ZGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 3372C71479FDDC008514C5C45CE9B797 /* ZGLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5C48A4783131CDC973E4DF22558E73 /* ZGRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A598B12F0405EFEE4CA750CEFB19562D /* ZGRequest.m */; };
+		EFF804A7F68E1FEC8E1A23DCB2428A23 /* MPTypeDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = C7AD716012F2C277CA542724CDB79DC2 /* MPTypeDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3C9F36F2A37E9D1AEE47A5F02841D66 /* MPObjectSerializerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEF17A76C70BD475C7C7ADC408ADB12 /* MPObjectSerializerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3E35C42E859FE68B41D6E707DA3C8AF /* MPSequenceGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEEA7E9D75105C96B3DA03118147A3A /* MPSequenceGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5EE446DD47223C1BC3992AF1B1CE4A6 /* UIScrollView+ZGAutoTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FCBCCFA6A6D42C419B776D030DF4E4 /* UIScrollView+ZGAutoTrack.m */; };
+		F7A39BB788ED3DA1D3FA68D1DB5987ED /* NSString+ZGMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = DA350B8BA8FC1A1D92DF30D987728B1D /* NSString+ZGMD5.m */; };
+		F91E7AD5C369E2CB1F77CF7A3884ECDF /* ShakeGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BDA6BB44AB74D64863AC6829EDE8EE /* ShakeGesture.m */; };
+		F9EC0D470252064FB088D855A2C3376C /* MPClassDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A0AE61FFB120E3978AF826B0565028C /* MPClassDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA9BA69DE78F485C464641C233022F6A /* MPDisplayTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = DED8F6E57F4C3591CE45D6916AFF229C /* MPDisplayTrigger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB22A231D506A9F0F4B826F5FEC5974C /* MPABTestDesignerTweakRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE4858E79F506EDCAEFC3994A83CA8B /* MPABTestDesignerTweakRequestMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB301D89122D38F4D5127B155A1D77E1 /* ShakeGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 9174CFAEEB39E6B145048DC05C729F4A /* ShakeGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC93B79EBCC9D90E277B2CC5CC7F63C5 /* MPUIControlBinding.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B2A9D647B3810C417A03838ABAA8A88 /* MPUIControlBinding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC9A4AE42542A28754E1F8115E870939 /* MPABTestDesignerTweakResponseMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1B59208B06255783D05D6F792F5863 /* MPABTestDesignerTweakResponseMessage.m */; };
+		FCE19FEC95054DDDF51F15A41AA7EDB3 /* ZhugeioAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA1A5AC2402179839D52D3FF3961847 /* ZhugeioAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06363D108145AA8EA58EA9B372C55544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61FA4817C4C3EE5DABE280D2D69CF5D6;
+			remoteInfo = "SensorsAnalyticsSDK-SensorsAnalyticsSDK";
+		};
+		302C7C014C0092D67E271A3C0151BB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C207232F1DD5784BF33C140E6B05B3;
+			remoteInfo = SensorsAnalyticsSDK;
+		};
+		55904C114130BB85544562B2B670ED9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7249D5077341D52717D84A1A24958AAC;
+			remoteInfo = ZhugeioAnalytics;
+		};
+		6A1C729DF502E5D654D6DB6BECDE416F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7249D5077341D52717D84A1A24958AAC;
+			remoteInfo = ZhugeioAnalytics;
+		};
+		6C6E14E93E71754B5160491A2C6941C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89C207232F1DD5784BF33C140E6B05B3;
+			remoteInfo = SensorsAnalyticsSDK;
+		};
+		E04DC2A922388381C88B00EB65335DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1B7E9FCC674E977BE2D38FC2709798C;
+			remoteInfo = "AppsFlyerFramework-AppsFlyerLib_Privacy";
+		};
+		EBD69D83708D9A3D9EDF8E2B5B01EC6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B23938B1EBCBAD2419AB6E9D222A0B;
+			remoteInfo = AppsFlyerFramework;
+		};
+		F25F6D7B8EF29369C2E702EF1B20141E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0B23938B1EBCBAD2419AB6E9D222A0B;
+			remoteInfo = AppsFlyerFramework;
+		};
+		F9ACB9713494187A55661FF89499D90A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D14EEF9F1839F8F1CE5D55C0A1221560;
+			remoteInfo = "Pods-dailyDetail";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0078284C4EDFF6C1356F0D19B094EB88 /* UIApplication+Zhuge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Zhuge.m"; path = "Zhugeio/AutoTrack/UIApplication+Zhuge.m"; sourceTree = "<group>"; };
+		00B2C2C73E092F86087DF19639283E44 /* UIView+MPHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MPHelpers.m"; path = "Zhugeio/Codeless/UIView+MPHelpers.m"; sourceTree = "<group>"; };
+		0103A65231767D5292862152DAA1D6DD /* ZGHttpHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGHttpHelper.m; path = Zhugeio/ZGSee/ZGHttpHelper.m; sourceTree = "<group>"; };
+		015794B02C51FB69753CCFAF51F5539F /* Pods-dailyDetailTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dailyDetailTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		02CE37AA969C3263CC71558F6E319550 /* Pods-dailyDetail-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dailyDetail-Info.plist"; sourceTree = "<group>"; };
+		034FA1632BB06DF56436174DD8ED4B4A /* Pods-dailyDetail-dailyDetailUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dailyDetail-dailyDetailUITests.modulemap"; sourceTree = "<group>"; };
+		0373BB61F876C83DA8A7E7A00B30BB9A /* ZGIDFAUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGIDFAUtil.m; path = Zhugeio/Utils/ZGIDFAUtil.m; sourceTree = "<group>"; };
+		04C58E18B9049F98A9431AA6FDE74202 /* MPObjectSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPObjectSerializer.m; path = Zhugeio/Codeless/MPObjectSerializer.m; sourceTree = "<group>"; };
+		06BA9BBF10C59DA7E618C3482D25E70F /* UIImage+MPAverageColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MPAverageColor.m"; path = "Zhugeio/Codeless/UIImage+MPAverageColor.m"; sourceTree = "<group>"; };
+		06BDA6BB44AB74D64863AC6829EDE8EE /* ShakeGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShakeGesture.m; path = Zhugeio/Codeless/ShakeGesture.m; sourceTree = "<group>"; };
+		075461FC94462469B7B9D876B0E9BE54 /* UIImage+ZGDifference.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ZGDifference.m"; path = "Zhugeio/ZGVisualization/UIImage+ZGDifference.m"; sourceTree = "<group>"; };
+		0A1DAE2C28DD4EE5CE3255301E94C1BC /* ZGVisualizedTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGVisualizedTool.m; path = Zhugeio/ZGVisualization/ZGVisualizedTool.m; sourceTree = "<group>"; };
+		0B5233C2A500F1B8FC25F7A7FA0A4149 /* ZhugeioAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhugeioAnalytics.debug.xcconfig; sourceTree = "<group>"; };
+		0BA5D2CB11EB93A4EA27241CBD54188C /* AppsFlyerLib.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppsFlyerLib.xcframework; path = binaries/xcframework/full/AppsFlyerLib.xcframework; sourceTree = "<group>"; };
+		0D3D2B9DED81F20C522E96445B22D3F0 /* MPObjectSerializerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPObjectSerializerConfig.m; path = Zhugeio/Codeless/MPObjectSerializerConfig.m; sourceTree = "<group>"; };
+		0D6CA0DBF0C564C15B1D03EF3A59DD26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0DE1DE5664EBFA4FCFF3386E86BCF7D8 /* MPEnumDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPEnumDescription.h; path = Zhugeio/Codeless/MPEnumDescription.h; sourceTree = "<group>"; };
+		0F49B0DDFB7D0F3C4DFECE248270ED33 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = SensorsAnalyticsSDK/Resources/Core/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		0F55B7826570EB3715B982D396DD78D0 /* ZGABTestDesignerDeviceInfoRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerDeviceInfoRequestMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerDeviceInfoRequestMessage.m; sourceTree = "<group>"; };
+		121A85F7AD237BF8E1F17FFF8368A952 /* Pods-dailyDetail-dailyDetailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dailyDetail-dailyDetailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		133CF93614C6BCC7C35D0F5E3CDD247B /* MPCATransform3DToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCATransform3DToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPCATransform3DToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		141448D05DB6EEB335B6743B16497C92 /* ZGCMMotionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGCMMotionManager.m; path = Zhugeio/Utils/ZGCMMotionManager.m; sourceTree = "<group>"; };
+		145BCCC823841A0C133445C9549D7171 /* MPDesignerSessionCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDesignerSessionCollection.h; path = Zhugeio/Codeless/MPDesignerSessionCollection.h; sourceTree = "<group>"; };
+		147BAE2B7CE1D42F634F010515BDBF46 /* ZAViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZAViews.m; path = Zhugeio/AutoTrack/ZAViews.m; sourceTree = "<group>"; };
+		168EF8CE9BE84F3D6198A6B15DCA02AE /* NSThread+Helpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSThread+Helpers.m"; path = "Zhugeio/Codeless/NSThread+Helpers.m"; sourceTree = "<group>"; };
+		17849BF52711B0F7F1E1D9B9E1FC78C6 /* MPDesignerTrackMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDesignerTrackMessage.m; path = Zhugeio/Codeless/MPDesignerTrackMessage.m; sourceTree = "<group>"; };
+		17ECE1BD4A73ED61F52C234CC0E270CA /* WKWebView+ZABridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+ZABridge.h"; path = "Zhugeio/JSBridge/WKWebView+ZABridge.h"; sourceTree = "<group>"; };
+		1A90F83DD21D06A56B35F7DBA5D6320E /* WKWebView+ZABridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+ZABridge.m"; path = "Zhugeio/JSBridge/WKWebView+ZABridge.m"; sourceTree = "<group>"; };
+		1BA279ABD8E09220B3A0DD99F73F33A2 /* ZAConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZAConstants.h; path = Zhugeio/ZGCore/ZAConstants.h; sourceTree = "<group>"; };
+		1BE773528113344A4EB2BAF3BD593AAD /* MPABTestDesignerSnapshotResponseMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerSnapshotResponseMessage.m; path = Zhugeio/Codeless/MPABTestDesignerSnapshotResponseMessage.m; sourceTree = "<group>"; };
+		1D77044104C15AF0902EB2E338E4B5AB /* ZGABTestDesignerChangeRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerChangeRequestMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerChangeRequestMessage.h; sourceTree = "<group>"; };
+		1EAF735E00D2A60AD4BA9E54471653F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		20B02B205CD5E0A25E72616FC83A3AC8 /* MPSwizzler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPSwizzler.m; path = Zhugeio/Codeless/MPSwizzler.m; sourceTree = "<group>"; };
+		222841597B5AB8913FA9DF6BB474FEE4 /* ZASwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZASwizzle.m; path = Zhugeio/Utils/ZASwizzle.m; sourceTree = "<group>"; };
+		23E4302F56D97EE9FBF2989F0DE66795 /* SessionMetadata.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SessionMetadata.m; path = Zhugeio/Codeless/SessionMetadata.m; sourceTree = "<group>"; };
+		2453313B8CB484A4A97C69D647F87F97 /* ZAConstants+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ZAConstants+Private.h"; path = "Zhugeio/ZGCore/ZAConstants+Private.h"; sourceTree = "<group>"; };
+		24B04AB08A76E7BEF4183BDE4E70B72B /* MPDesignerEventBindingRequestMesssage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDesignerEventBindingRequestMesssage.m; path = Zhugeio/Codeless/MPDesignerEventBindingRequestMesssage.m; sourceTree = "<group>"; };
+		2839EC83420BB70D9FA96DBA7D48B0D6 /* ZAViews.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZAViews.h; path = Zhugeio/AutoTrack/ZAViews.h; sourceTree = "<group>"; };
+		2848CDE072D24EA72A1C1E4BFDF20EF2 /* UIGestureRecognizer+Zhuge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+Zhuge.h"; path = "Zhugeio/AutoTrack/UIGestureRecognizer+Zhuge.h"; sourceTree = "<group>"; };
+		2B3487D125C782CA15501D73DBEAA803 /* MPSwizzler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPSwizzler.h; path = Zhugeio/Codeless/MPSwizzler.h; sourceTree = "<group>"; };
+		2CC2CD95302A0D8BA597EB5D09EB81CE /* ZGABTestDesignerChangeRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerChangeRequestMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerChangeRequestMessage.m; sourceTree = "<group>"; };
+		2F98C2D975F927513363DC9DE3887790 /* Pods-dailyDetail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dailyDetail.release.xcconfig"; sourceTree = "<group>"; };
+		302E7130CFE319C747B9E9E4FC987D9C /* UIApplication+Zhuge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Zhuge.h"; path = "Zhugeio/AutoTrack/UIApplication+Zhuge.h"; sourceTree = "<group>"; };
+		30890F4CDCF5DF6D12281E3DFEBD5F2C /* ZGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGUtils.h; path = Zhugeio/Utils/ZGUtils.h; sourceTree = "<group>"; };
+		30D37A714FB9046E5BB3FC78E1E3BF1E /* ZGCMMotionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGCMMotionManager.h; path = Zhugeio/Utils/ZGCMMotionManager.h; sourceTree = "<group>"; };
+		32B068AFBFECF40EBBF9302583B92B9C /* MPObjectIdentifierProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectIdentifierProvider.h; path = Zhugeio/Codeless/MPObjectIdentifierProvider.h; sourceTree = "<group>"; };
+		3372C71479FDDC008514C5C45CE9B797 /* ZGLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGLog.h; path = Zhugeio/ZGCore/ZGLog.h; sourceTree = "<group>"; };
+		33F5884821AC3E4DCE04A2CA3E62D13F /* MPUIControlBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUIControlBinding.m; path = Zhugeio/Codeless/MPUIControlBinding.m; sourceTree = "<group>"; };
+		343028726AE44E63E8532AF0D6E01A15 /* ZGVisualizationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGVisualizationManager.h; path = Zhugeio/ZGVisualization/ZGVisualizationManager.h; sourceTree = "<group>"; };
+		3497165747FDC70078AF3168F79F8AE7 /* ZASwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZASwizzle.h; path = Zhugeio/Utils/ZASwizzle.h; sourceTree = "<group>"; };
+		3567FE18BF19B750ED1BE270AC8D899A /* Pods-dailyDetail-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dailyDetail-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35FCBCCFA6A6D42C419B776D030DF4E4 /* UIScrollView+ZGAutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+ZGAutoTrack.m"; path = "Zhugeio/AutoTrack/UIScrollView+ZGAutoTrack.m"; sourceTree = "<group>"; };
+		36D27585C681E6CAA7C829C69E796FBB /* UIImage+MPImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MPImageEffects.h"; path = "Zhugeio/Codeless/UIImage+MPImageEffects.h"; sourceTree = "<group>"; };
+		372D1E5536E5618704E268DF2C8A286E /* Pods-dailyDetail-dailyDetailUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dailyDetail-dailyDetailUITests-frameworks.sh"; sourceTree = "<group>"; };
+		37FD13DD5DC2EF8B7FEAD165D8102B18 /* MPPropertyDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPPropertyDescription.m; path = Zhugeio/Codeless/MPPropertyDescription.m; sourceTree = "<group>"; };
+		39D1C56F76D8E90DD19094A61B040302 /* MPPassThroughValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPPassThroughValueTransformer.m; path = Zhugeio/Codeless/MPPassThroughValueTransformer.m; sourceTree = "<group>"; };
+		3A0AE61FFB120E3978AF826B0565028C /* MPClassDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPClassDescription.h; path = Zhugeio/Codeless/MPClassDescription.h; sourceTree = "<group>"; };
+		3ACC332F9BBB3EA1CC8D444F2A93E431 /* UIWindow+ZGView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+ZGView.h"; path = "Zhugeio/ZGVisualization/UIWindow+ZGView.h"; sourceTree = "<group>"; };
+		3B5BDBDEB7866737D22031E88379FF8C /* Pods-dailyDetail-dailyDetailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dailyDetail-dailyDetailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E32FD50D1A6602CFA88F47050416355 /* ZGDeviceInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGDeviceInfo.h; path = Zhugeio/Utils/ZGDeviceInfo.h; sourceTree = "<group>"; };
+		3E6791E397FFF69841FA0444F571089B /* MPObjectSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectSelector.h; path = Zhugeio/Codeless/MPObjectSelector.h; sourceTree = "<group>"; };
+		3E7A58A14A24B13C482C0A52028D1F2F /* ZGVariant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGVariant.h; path = Zhugeio/Codeless/ZGVariant.h; sourceTree = "<group>"; };
+		3E9309CC3F55C36C4D726ED4F967B9BD /* ZGRequestManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGRequestManager.h; path = Zhugeio/Utils/ZGRequestManager.h; sourceTree = "<group>"; };
+		3FBA876E61FCB15E206A7ACCB77261AB /* ZhugeConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeConfig.h; path = Zhugeio/ZGCore/ZhugeConfig.h; sourceTree = "<group>"; };
+		40FFF047F9733AB4F2BD765E774D0282 /* UIView+ZAExpView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZAExpView.h"; path = "Zhugeio/AutoTrack/UIView+ZAExpView.h"; sourceTree = "<group>"; };
+		428ED56195FB28A4D1F70E0DB291AA31 /* ZGABTestDesignerClearRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerClearRequestMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerClearRequestMessage.m; sourceTree = "<group>"; };
+		432932D675742A6EBB7E9FAB92DD62F8 /* ZhugeCompres.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZhugeCompres.m; path = Zhugeio/Utils/ZhugeCompres.m; sourceTree = "<group>"; };
+		43E7A365A2DC09429A077C545889BCF7 /* _MPTweakBindObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _MPTweakBindObserver.h; path = Zhugeio/Codeless/_MPTweakBindObserver.h; sourceTree = "<group>"; };
+		4573117ED7075428DD725E154E9E1E42 /* MPNSNumberToCGFloatValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNSNumberToCGFloatValueTransformer.m; path = Zhugeio/Codeless/MPNSNumberToCGFloatValueTransformer.m; sourceTree = "<group>"; };
+		461470C1B860BC56A6AC75F1E830D7DC /* Pods-dailyDetail-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dailyDetail-frameworks.sh"; sourceTree = "<group>"; };
+		46A6BB00F71A3DDB6EF6EB2E71CFA1D9 /* ZGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGReachability.h; path = Zhugeio/ZGSee/ZGReachability.h; sourceTree = "<group>"; };
+		46F5691BC1D830089FD509174ED0AD87 /* MPTweak.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTweak.h; path = Zhugeio/Codeless/MPTweak.h; sourceTree = "<group>"; };
+		473D97AB8F8C8C37F7BE711E6FD6DA98 /* ZGABTestDesignerDeviceInfoRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerDeviceInfoRequestMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerDeviceInfoRequestMessage.h; sourceTree = "<group>"; };
+		484B6430EA37095298BCC9BFEB8FC158 /* MPCGSizeToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGSizeToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPCGSizeToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		4A0148828F2A8C954EB73A55662EE287 /* ZGABTestDesignerClearResponseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerClearResponseMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerClearResponseMessage.h; sourceTree = "<group>"; };
+		4AE4FF79D7CCB51F7611FE53BFBD62C4 /* ZADeviceId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZADeviceId.h; path = Zhugeio/Utils/ZADeviceId.h; sourceTree = "<group>"; };
+		4C78DBC17C63DF820647558A33920100 /* Pods-dailyDetail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dailyDetail-umbrella.h"; sourceTree = "<group>"; };
+		4EC0E2E8E3C98DDBF464054145A40047 /* MPSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPSwizzle.h; path = Zhugeio/Codeless/MPSwizzle.h; sourceTree = "<group>"; };
+		4F427AFBFBE3872174F985EAAAFB3098 /* ZAClassHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZAClassHelper.m; path = Zhugeio/AutoTrack/ZAClassHelper.m; sourceTree = "<group>"; };
+		4FF4ADF505E778745A50925162D2B0A4 /* ZADelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZADelegateProxy.h; path = Zhugeio/AutoTrack/ZADelegateProxy.h; sourceTree = "<group>"; };
+		51652DEB9161818CFE8EDF5DC8FBCE03 /* ZGABTestDesignerDeviceInfoResponseMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerDeviceInfoResponseMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerDeviceInfoResponseMessage.m; sourceTree = "<group>"; };
+		51E4BB9771F3809947088959D42453DE /* ZGABTestDesignerDisconnectMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerDisconnectMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerDisconnectMessage.h; sourceTree = "<group>"; };
+		55521BEB32F40CCE9C3847E61E040CC1 /* Pods-dailyDetail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dailyDetail.debug.xcconfig"; sourceTree = "<group>"; };
+		5560D6E19AF0FBACE7C09B18D441D578 /* UIColor+MPColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MPColor.m"; path = "Zhugeio/Codeless/UIColor+MPColor.m"; sourceTree = "<group>"; };
+		5600E267399A39E99E1CBC22665E05BE /* ZhugeAutoTrackUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZhugeAutoTrackUtils.m; path = Zhugeio/AutoTrack/ZhugeAutoTrackUtils.m; sourceTree = "<group>"; };
+		5638AC5AE94D73E900EDFB8CDC489C1B /* MPTweakInline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTweakInline.m; path = Zhugeio/Codeless/MPTweakInline.m; sourceTree = "<group>"; };
+		5715033FA3507FFEF661CE8F2382E018 /* Pods-dailyDetail-dailyDetailUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dailyDetail-dailyDetailUITests-resources.sh"; sourceTree = "<group>"; };
+		584D6B5B936A0F6696D3C4E8FA02C75A /* MPClassDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPClassDescription.m; path = Zhugeio/Codeless/MPClassDescription.m; sourceTree = "<group>"; };
+		591C473A454F31A7D1C5C099C605B10D /* Pods-dailyDetail-dailyDetailUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dailyDetail-dailyDetailUITests-umbrella.h"; sourceTree = "<group>"; };
+		59C430FA58604C7ABB3F362C7D97518D /* SessionMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SessionMetadata.h; path = Zhugeio/Codeless/SessionMetadata.h; sourceTree = "<group>"; };
+		5B1E0EAA48BC98BD6FFE89E36AB89E2D /* UIColor+MPColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MPColor.h"; path = "Zhugeio/Codeless/UIColor+MPColor.h"; sourceTree = "<group>"; };
+		5B2117EA77994333204B55081920D14E /* ZGRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGRequest.h; path = Zhugeio/Utils/ZGRequest.h; sourceTree = "<group>"; };
+		5BA2F1E97AEEF662528A187CBA26F94F /* ZGABTestDesignerSnapshotRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerSnapshotRequestMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerSnapshotRequestMessage.h; sourceTree = "<group>"; };
+		5BD830B59A3296491212916A4E0947CA /* Pods-dailyDetailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dailyDetailTests.release.xcconfig"; sourceTree = "<group>"; };
+		5BEEF209AD705043224328860CE67D77 /* NSString+ZGMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ZGMD5.h"; path = "Zhugeio/ZGVisualization/NSString+ZGMD5.h"; sourceTree = "<group>"; };
+		5C5555B4EC03D4C38B9FBEDA5381EC25 /* Pods-dailyDetail-dailyDetailUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dailyDetail-dailyDetailUITests-Info.plist"; sourceTree = "<group>"; };
+		5CD30B8A287EFADC6D4CE07484387142 /* ZGWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGWebSocket.m; path = Zhugeio/Codeless/ZGWebSocket.m; sourceTree = "<group>"; };
+		5CD3DB037A1610318C72B528315863D5 /* ZGABTestDesignerDisconnectMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerDisconnectMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerDisconnectMessage.m; sourceTree = "<group>"; };
+		5CFF748A788251977FF9940983D5C85C /* _MPTweakBindObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _MPTweakBindObserver.m; path = Zhugeio/Codeless/_MPTweakBindObserver.m; sourceTree = "<group>"; };
+		5E942594801C74F2BD6D804F3EBBC1ED /* AppsFlyerFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsFlyerFramework.debug.xcconfig; sourceTree = "<group>"; };
+		5F8E7369E897285E1CE2C197F9C2F2E1 /* ZAConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZAConstants.m; path = Zhugeio/ZGCore/ZAConstants.m; sourceTree = "<group>"; };
+		6055506EAFDA2F5A0971FC42D1FB3CDF /* ZGABTestDesignerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerConnection.h; path = Zhugeio/Codeless/ZGABTestDesignerConnection.h; sourceTree = "<group>"; };
+		60CA5DC275AFBC54F7B6415109AAE0C2 /* NSInvocation+MPHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSInvocation+MPHelpers.h"; path = "Zhugeio/Codeless/NSInvocation+MPHelpers.h"; sourceTree = "<group>"; };
+		60EC6A90C9F50C0F8A7CF1262BB856C2 /* ZGABTestDesignerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerConnection.m; path = Zhugeio/Codeless/ZGABTestDesignerConnection.m; sourceTree = "<group>"; };
+		61C112A7AD7C9F65A7F512DFD3EB5E00 /* UIWindow+ZGView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+ZGView.m"; path = "Zhugeio/ZGVisualization/UIWindow+ZGView.m"; sourceTree = "<group>"; };
+		62D33A0F7C2543F140D0D28F3923B8B9 /* UIImage+MPImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MPImageEffects.m"; path = "Zhugeio/Codeless/UIImage+MPImageEffects.m"; sourceTree = "<group>"; };
+		631122550B0A221757545BDEC5176E1C /* MPUIEdgeInsetsToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUIEdgeInsetsToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPUIEdgeInsetsToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		631ED0E25E1FACC35BFE13214F343D65 /* ZhugeBase64.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZhugeBase64.m; path = Zhugeio/Utils/ZhugeBase64.m; sourceTree = "<group>"; };
+		6378CE742DAE5BF51AAC4BCEAA1E0748 /* Pods-dailyDetailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dailyDetailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6383A63865E37E4D6051726803E028B1 /* MPSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPSwizzle.m; path = Zhugeio/Codeless/MPSwizzle.m; sourceTree = "<group>"; };
+		63F0D609EE015F01120D39977DF82413 /* Pods-dailyDetailTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dailyDetailTests.modulemap"; sourceTree = "<group>"; };
+		64FC09697EFA33F9E157E7FC0145797B /* ZGAbstractABTestDesignerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGAbstractABTestDesignerMessage.h; path = Zhugeio/Codeless/ZGAbstractABTestDesignerMessage.h; sourceTree = "<group>"; };
+		650D548EE7DF8D8DB72E30A0B1FA7A18 /* UIImage+MPAverageColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MPAverageColor.h"; path = "Zhugeio/Codeless/UIImage+MPAverageColor.h"; sourceTree = "<group>"; };
+		669FCC187FAD44FBB1AD2988D1EB21C9 /* MPUICollectionViewBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPUICollectionViewBinding.h; path = Zhugeio/Codeless/MPUICollectionViewBinding.h; sourceTree = "<group>"; };
+		66D57FB9FA1EFFBC0AB3E60962331087 /* ZAClassHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZAClassHelper.h; path = Zhugeio/AutoTrack/ZAClassHelper.h; sourceTree = "<group>"; };
+		67547A0F9D8EC8D3A7D1B22AF1E8B0C0 /* ZAMethodHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZAMethodHelper.h; path = Zhugeio/AutoTrack/ZAMethodHelper.h; sourceTree = "<group>"; };
+		68449FE7D00A448267FE2A054079D041 /* MPTypeDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTypeDescription.m; path = Zhugeio/Codeless/MPTypeDescription.m; sourceTree = "<group>"; };
+		6B2A9D647B3810C417A03838ABAA8A88 /* MPUIControlBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPUIControlBinding.h; path = Zhugeio/Codeless/MPUIControlBinding.h; sourceTree = "<group>"; };
+		6B5F9C87FD0E796395DABC15340F7316 /* MPABTestDesignerSnapshotResponseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerSnapshotResponseMessage.h; path = Zhugeio/Codeless/MPABTestDesignerSnapshotResponseMessage.h; sourceTree = "<group>"; };
+		6B696ED5FCC72A676B390B72F0FFA459 /* ZhugeioAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZhugeioAnalytics-dummy.m"; sourceTree = "<group>"; };
+		6B74B6D0E6C5C7385369EE6B4C4ED3C5 /* ZGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGReachability.m; path = Zhugeio/ZGSee/ZGReachability.m; sourceTree = "<group>"; };
+		6FCFE826275153F8364F24F1D88ADCAB /* ZGSharedDur.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGSharedDur.m; path = Zhugeio/ZGSee/ZGSharedDur.m; sourceTree = "<group>"; };
+		6FDB11FFEF142EAF692B9C53D81D8929 /* ZGWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGWebSocket.h; path = Zhugeio/Codeless/ZGWebSocket.h; sourceTree = "<group>"; };
+		715B19DEEC69F8997E4BB198634BF5C3 /* MPTweakStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTweakStore.h; path = Zhugeio/Codeless/MPTweakStore.h; sourceTree = "<group>"; };
+		71C9F4BE1F149DB0476067D8DD367849 /* ZAMethodHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZAMethodHelper.m; path = Zhugeio/AutoTrack/ZAMethodHelper.m; sourceTree = "<group>"; };
+		73915BFA1E77D3862E21E98F8EF867B5 /* NSObject+ZGResponseID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZGResponseID.h"; path = "Zhugeio/ZGVisualization/NSObject+ZGResponseID.h"; sourceTree = "<group>"; };
+		7773914C0409763C6D5E561D4128FBAF /* ZGEventBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGEventBinding.h; path = Zhugeio/Codeless/ZGEventBinding.h; sourceTree = "<group>"; };
+		77AA2B3251FA401099AA8D967F8BBC4E /* ZhugeSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZhugeSwizzle.m; path = Zhugeio/AutoTrack/ZhugeSwizzle.m; sourceTree = "<group>"; };
+		77C95030D03889CA96E4C11F58DCA1E4 /* SelectorEvaluator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SelectorEvaluator.m; path = Zhugeio/Codeless/SelectorEvaluator.m; sourceTree = "<group>"; };
+		7D0003B2E5196450E2FE72D22414410A /* SensorsAnalyticsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SensorsAnalyticsSDK.debug.xcconfig; sourceTree = "<group>"; };
+		7D50890B1D60221D70B1A37FE04F90A1 /* NSInvocation+MPHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSInvocation+MPHelpers.m"; path = "Zhugeio/Codeless/NSInvocation+MPHelpers.m"; sourceTree = "<group>"; };
+		7D69283ECFE89E356778896036D139BD /* ZhugeJS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeJS.h; path = Zhugeio/ZGCore/ZhugeJS.h; sourceTree = "<group>"; };
+		7D72DD090C405F37FC3EE580851BF253 /* SensorsAnalyticsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SensorsAnalyticsSDK.release.xcconfig; sourceTree = "<group>"; };
+		817E0C9BF84CBE65D75341753AC52F71 /* Pods_dailyDetailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dailyDetailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A27CC5B467F22445F800BC2E962C0F /* ZADeviceId.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZADeviceId.m; path = Zhugeio/Utils/ZADeviceId.m; sourceTree = "<group>"; };
+		8303BCB3222B34E72609A58B2223FBB9 /* MPCGColorRefToNSStringValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGColorRefToNSStringValueTransformer.m; path = Zhugeio/Codeless/MPCGColorRefToNSStringValueTransformer.m; sourceTree = "<group>"; };
+		840FAD0248F40DFD4D6866E379E4D331 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = binaries/Resources/nonStrict/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		848EF173C89DC3DBAFDCA8E39DB7501E /* MPValueTransformers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPValueTransformers.h; path = Zhugeio/Codeless/MPValueTransformers.h; sourceTree = "<group>"; };
+		8566612243A3861CAE91A05DDBDEE147 /* MPObjectSerializerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectSerializerContext.h; path = Zhugeio/Codeless/MPObjectSerializerContext.h; sourceTree = "<group>"; };
+		87DC67072452733FAC36FBFA4AB47EAA /* AppsFlyerFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppsFlyerFramework.release.xcconfig; sourceTree = "<group>"; };
+		8842A1DF31EE6DBEE9E6061B8EE70C09 /* UIControl+ZGClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+ZGClick.m"; path = "Zhugeio/ZGVisualization/UIControl+ZGClick.m"; sourceTree = "<group>"; };
+		8917710F109D850E5BD0452422573A47 /* Pods-dailyDetail-dailyDetailUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dailyDetail-dailyDetailUITests-dummy.m"; sourceTree = "<group>"; };
+		89EE0DD9D2B73C750BE7E143533C0614 /* ZGVisualizationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGVisualizationManager.m; path = Zhugeio/ZGVisualization/ZGVisualizationManager.m; sourceTree = "<group>"; };
+		8A236FCB74524668C68E17D36982B13D /* Pods-dailyDetail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dailyDetail-dummy.m"; sourceTree = "<group>"; };
+		8A4E0E1FC97F5742231F75A9264CA1EC /* ZhugeioAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhugeioAnalytics-prefix.pch"; sourceTree = "<group>"; };
+		8B54F67328A38B8110991B69FBC26CCE /* Pods-dailyDetail-dailyDetailUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-dailyDetail-dailyDetailUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BA1A5AC2402179839D52D3FF3961847 /* ZhugeioAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZhugeioAnalytics-umbrella.h"; sourceTree = "<group>"; };
+		8E0BC940EE31F4055A4F8BE18253FC1E /* ZhugeHeaders.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeHeaders.h; path = Zhugeio/ZGCore/ZhugeHeaders.h; sourceTree = "<group>"; };
+		8F189EC238DA5A5E6DB89C0A88037458 /* ZGHttpHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGHttpHelper.h; path = Zhugeio/ZGSee/ZGHttpHelper.h; sourceTree = "<group>"; };
+		8F28D58047F74FE430ABBB6627655858 /* Pods-dailyDetailTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dailyDetailTests-dummy.m"; sourceTree = "<group>"; };
+		9174CFAEEB39E6B145048DC05C729F4A /* ShakeGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShakeGesture.h; path = Zhugeio/Codeless/ShakeGesture.h; sourceTree = "<group>"; };
+		91899F74362A7E3277D45F003692CE40 /* UIControl+ZGClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+ZGClick.h"; path = "Zhugeio/ZGVisualization/UIControl+ZGClick.h"; sourceTree = "<group>"; };
+		91E19963B0660CF6DB5776495B7D7C27 /* MPTweakInlineInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTweakInlineInternal.h; path = Zhugeio/Codeless/MPTweakInlineInternal.h; sourceTree = "<group>"; };
+		955D89E91BF62E915180F5ECBF6170D1 /* MPDesignerEventBindingMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDesignerEventBindingMessage.h; path = Zhugeio/Codeless/MPDesignerEventBindingMessage.h; sourceTree = "<group>"; };
+		95B238465A1BE7BFBE00DD414BF4379D /* ZGABTestDesignerChangeResponseMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerChangeResponseMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerChangeResponseMessage.m; sourceTree = "<group>"; };
+		968165A60A381DEA34A60909409333E5 /* ZGUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGUtil.h; path = Zhugeio/ZGSee/ZGUtil.h; sourceTree = "<group>"; };
+		984304153858908BF8E9174590DCD678 /* MPTweakStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTweakStore.m; path = Zhugeio/Codeless/MPTweakStore.m; sourceTree = "<group>"; };
+		98BB29FB3D7C4FDBA490CD20BCE96F7B /* ZGVisualizationSocketMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGVisualizationSocketMessage.h; path = Zhugeio/ZGVisualization/ZGVisualizationSocketMessage.h; sourceTree = "<group>"; };
+		98E6793A027D892B1198A2D29B50192F /* Zhuge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Zhuge.h; path = Zhugeio/ZGCore/Zhuge.h; sourceTree = "<group>"; };
+		9A1D1EF48362BF3322682ACFCDE09B5C /* Pods-dailyDetail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-dailyDetail.modulemap"; sourceTree = "<group>"; };
+		9A9543F433074FCBEE667B475D57EAE5 /* UIViewController+ZGAutoTrack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ZGAutoTrack.m"; path = "Zhugeio/AutoTrack/UIViewController+ZGAutoTrack.m"; sourceTree = "<group>"; };
+		9AF5C69878616F6BA3FA18B880E2EA04 /* ZGABTestDesignerClearRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerClearRequestMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerClearRequestMessage.h; sourceTree = "<group>"; };
+		9B7CB0BBCD332375A3F8F8B1648FFAD6 /* MPTweakInline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTweakInline.h; path = Zhugeio/Codeless/MPTweakInline.h; sourceTree = "<group>"; };
+		9C53B19A8EBC396195B22D474AB51B0E /* UIViewController+ZGAutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ZGAutoTrack.h"; path = "Zhugeio/AutoTrack/UIViewController+ZGAutoTrack.h"; sourceTree = "<group>"; };
+		9CA3661241F3C1DFB580F74D24FB5BAC /* ZhugeJS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZhugeJS.m; path = Zhugeio/ZGCore/ZhugeJS.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A05A0F08010FC507D4080F3AAFA1E025 /* MPUITableViewBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUITableViewBinding.m; path = Zhugeio/Codeless/MPUITableViewBinding.m; sourceTree = "<group>"; };
+		A12CBC51791850BC2BCE02E1F35116DF /* MPABTestDesignerTweakRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerTweakRequestMessage.m; path = Zhugeio/Codeless/MPABTestDesignerTweakRequestMessage.m; sourceTree = "<group>"; };
+		A31809800D4548676BB8A4B532E8C58E /* ZGABTestDesignerSnapshotRequestMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerSnapshotRequestMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerSnapshotRequestMessage.m; sourceTree = "<group>"; };
+		A3FC3D0D15C38666043C98D52CF4022E /* MPCGPointToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGPointToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPCGPointToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		A40F57A395D4A8E3814B63DDB0FC5F33 /* ZhugeEventProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeEventProperty.h; path = Zhugeio/ZGCore/ZhugeEventProperty.h; sourceTree = "<group>"; };
+		A598B12F0405EFEE4CA750CEFB19562D /* ZGRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGRequest.m; path = Zhugeio/Utils/ZGRequest.m; sourceTree = "<group>"; };
+		A666D3C7494F980DAA792FE5F48F8D51 /* NSObject+ZGResponseID.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZGResponseID.m"; path = "Zhugeio/ZGVisualization/NSObject+ZGResponseID.m"; sourceTree = "<group>"; };
+		A6A28FB62CBEC786C410D9CDB56D4F98 /* SelectorEvaluator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SelectorEvaluator.h; path = Zhugeio/Codeless/SelectorEvaluator.h; sourceTree = "<group>"; };
+		A6C127F6DA2A6239E71CBF77D33A889D /* UIScrollView+ZGAutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+ZGAutoTrack.h"; path = "Zhugeio/AutoTrack/UIScrollView+ZGAutoTrack.h"; sourceTree = "<group>"; };
+		A70F6843912153EBDD81CA862F9182E1 /* ZhugeioAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZhugeioAnalytics.release.xcconfig; sourceTree = "<group>"; };
+		A89B9C43DB0BFB8CE2B778294CC94483 /* MPObjectSerializerContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPObjectSerializerContext.m; path = Zhugeio/Codeless/MPObjectSerializerContext.m; sourceTree = "<group>"; };
+		A9AB205A6E15CC23F8D380EA2DC31F8E /* UIView+ZGView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZGView.m"; path = "Zhugeio/ZGVisualization/UIView+ZGView.m"; sourceTree = "<group>"; };
+		AB253163E3DCCE5562E8412F6335918C /* ZhugeSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeSwizzle.h; path = Zhugeio/AutoTrack/ZhugeSwizzle.h; sourceTree = "<group>"; };
+		ACEEA7E9D75105C96B3DA03118147A3A /* MPSequenceGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPSequenceGenerator.h; path = Zhugeio/Codeless/MPSequenceGenerator.h; sourceTree = "<group>"; };
+		ADB3C6764205C0D9F9EE0E1C88E3FA53 /* MPUIFontToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUIFontToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPUIFontToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		AE0E9600A440DDB9E14DB3D90DC5C92A /* MPEnumDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPEnumDescription.m; path = Zhugeio/Codeless/MPEnumDescription.m; sourceTree = "<group>"; };
+		AEF96DBC68706FC1A95D63DAB2F9B6CB /* Pods-dailyDetail-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dailyDetail-acknowledgements.plist"; sourceTree = "<group>"; };
+		AFB5FE7170790BC5E2F6BF72794D9463 /* MPObjectIdentityProvider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPObjectIdentityProvider.m; path = Zhugeio/Codeless/MPObjectIdentityProvider.m; sourceTree = "<group>"; };
+		B09F53F95004416CAB25932C1D3E04FB /* SensorsAnalyticsSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SensorsAnalyticsSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0ECAA89DFB69A4D87211E3920301C8D /* MPSequenceGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPSequenceGenerator.m; path = Zhugeio/Codeless/MPSequenceGenerator.m; sourceTree = "<group>"; };
+		B28DCD87E407FF0812A61F87B7E77EAB /* ZhugeConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeConstants.h; path = Zhugeio/ZGCore/ZhugeConstants.h; sourceTree = "<group>"; };
+		B400587C0D8A5ADB8D3CDE82CA7FFCB9 /* ZGUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGUtils.m; path = Zhugeio/Utils/ZGUtils.m; sourceTree = "<group>"; };
+		B45E6DFBC37C695DFE5A5617959E8C77 /* ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist"; sourceTree = "<group>"; };
+		B65974F9FC83C37762324F260E923AD8 /* MPFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPFoundation.h; path = Zhugeio/Codeless/MPFoundation.h; sourceTree = "<group>"; };
+		B66687ECED220C80165D1ED191488062 /* ZhugeioAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZhugeioAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B807BC8C2E71A83D6F1641C986B4F89F /* MPCGRectToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGRectToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPCGRectToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		B807C2389EDC8C4CC59BECEE0065CB10 /* MPUIColorToNSStringValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUIColorToNSStringValueTransformer.m; path = Zhugeio/Codeless/MPUIColorToNSStringValueTransformer.m; sourceTree = "<group>"; };
+		B844B31778A4EEB566AF063949C5A5C6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		BA0A0754154B153FA5329625572E920F /* UIGestureRecognizer+Zhuge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+Zhuge.m"; path = "Zhugeio/AutoTrack/UIGestureRecognizer+Zhuge.m"; sourceTree = "<group>"; };
+		BB1BD3F00DF48FCAE582EFE41A916A99 /* Pods-dailyDetailTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dailyDetailTests-umbrella.h"; sourceTree = "<group>"; };
+		BBA756841559FABC3BA020272C0095E5 /* MPDisplayTrigger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDisplayTrigger.m; path = Zhugeio/Codeless/MPDisplayTrigger.m; sourceTree = "<group>"; };
+		BC704530779F05117C07B73AA4937C5C /* MPUIImageToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUIImageToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPUIImageToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		BD7357C8F78B91D7F2B4C174019F4FE7 /* ZGSqliteManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGSqliteManager.h; path = Zhugeio/ZGSee/ZGSqliteManager.h; sourceTree = "<group>"; };
+		BFABF90BE73A47008D23F2FBDDA39FAB /* ZhugeAutoTrackUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeAutoTrackUtils.h; path = Zhugeio/AutoTrack/ZhugeAutoTrackUtils.h; sourceTree = "<group>"; };
+		C07BCA10CF6C88CC6584703299EE88A7 /* SensorsAnalyticsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = SensorsAnalyticsSDK.xcframework; path = SensorsAnalyticsSDK/Source/Core/SensorsAnalyticsSDK.xcframework; sourceTree = "<group>"; };
+		C0F42A8E7F9DB4671E34C84FBD08D5AB /* Pods_dailyDetail_dailyDetailUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dailyDetail_dailyDetailUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1EFEF4B21B1389C1B7C17893AC92FB1 /* MPTweak.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPTweak.m; path = Zhugeio/Codeless/MPTweak.m; sourceTree = "<group>"; };
+		C74BF74D8A58C5652301C0397B52DB86 /* ZGABTestDesignerClearResponseMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGABTestDesignerClearResponseMessage.m; path = Zhugeio/Codeless/ZGABTestDesignerClearResponseMessage.m; sourceTree = "<group>"; };
+		C7AD716012F2C277CA542724CDB79DC2 /* MPTypeDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPTypeDescription.h; path = Zhugeio/Codeless/MPTypeDescription.h; sourceTree = "<group>"; };
+		C824588E7396F2432D2CD7C12BDFEB99 /* MPABTestDesignerTweakResponseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerTweakResponseMessage.h; path = Zhugeio/Codeless/MPABTestDesignerTweakResponseMessage.h; sourceTree = "<group>"; };
+		C829812DCB16C6DCEC0BAA7F1B6F59DE /* ZGABTestDesignerMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerMessage.h; sourceTree = "<group>"; };
+		C9A265BE72D5B51C9F499324A6BC1D23 /* UIImage+ZGDifference.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ZGDifference.h"; path = "Zhugeio/ZGVisualization/UIImage+ZGDifference.h"; sourceTree = "<group>"; };
+		CA716081233648C4A88C14A8A0406CE6 /* MPObjectSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPObjectSelector.m; path = Zhugeio/Codeless/MPObjectSelector.m; sourceTree = "<group>"; };
+		CAE6BCA32878AE1B8EBF97E0083A29F1 /* ZGDeviceInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGDeviceInfo.m; path = Zhugeio/Utils/ZGDeviceInfo.m; sourceTree = "<group>"; };
+		CB5A251AA89EBA6B21A76EA9A83D22DB /* ZhugeBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeBase64.h; path = Zhugeio/Utils/ZhugeBase64.h; sourceTree = "<group>"; };
+		CBEBF90F0598505A90E3D0066F3CC5B7 /* ZGABTestDesignerChangeResponseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerChangeResponseMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerChangeResponseMessage.h; sourceTree = "<group>"; };
+		CC5B7871CC1B853379D4340C8ECFD49E /* ZGVariant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGVariant.m; path = Zhugeio/Codeless/ZGVariant.m; sourceTree = "<group>"; };
+		CDB59E97821493715B307595E275E518 /* NSObject+ZACellClick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+ZACellClick.h"; path = "Zhugeio/AutoTrack/NSObject+ZACellClick.h"; sourceTree = "<group>"; };
+		CDEF17A76C70BD475C7C7ADC408ADB12 /* MPObjectSerializerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectSerializerConfig.h; path = Zhugeio/Codeless/MPObjectSerializerConfig.h; sourceTree = "<group>"; };
+		CE1956AE2ED5E7E636E0F36720B4B35D /* Pods-dailyDetail-dailyDetailUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dailyDetail-dailyDetailUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE2290F016EDF87B9111BD1A3D3265BF /* UIView+ZAExpView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZAExpView.m"; path = "Zhugeio/AutoTrack/UIView+ZAExpView.m"; sourceTree = "<group>"; };
+		CE97329CEB5DE4D4D7F3371E6E1BDE90 /* ZGEventBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGEventBinding.m; path = Zhugeio/Codeless/ZGEventBinding.m; sourceTree = "<group>"; };
+		CEE4858E79F506EDCAEFC3994A83CA8B /* MPABTestDesignerTweakRequestMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPABTestDesignerTweakRequestMessage.h; path = Zhugeio/Codeless/MPABTestDesignerTweakRequestMessage.h; sourceTree = "<group>"; };
+		CFB521E2884E12775E89FFA5E0BFC6E2 /* ZGVisualizedTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGVisualizedTool.h; path = Zhugeio/ZGVisualization/ZGVisualizedTool.h; sourceTree = "<group>"; };
+		D0FFD8FD8A8BFBB70284B3FB359CBA13 /* NSTimer+ZGWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+ZGWeakTimer.h"; path = "Zhugeio/ZGVisualization/NSTimer+ZGWeakTimer.h"; sourceTree = "<group>"; };
+		D2C2D615F3FD78115684506A02E2ED58 /* ZGIDFAUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGIDFAUtil.h; path = Zhugeio/Utils/ZGIDFAUtil.h; sourceTree = "<group>"; };
+		D30286D6670886334E1AB54E89BFEE36 /* ResourceBundle-SensorsAnalyticsSDK-SensorsAnalyticsSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SensorsAnalyticsSDK-SensorsAnalyticsSDK-Info.plist"; sourceTree = "<group>"; };
+		D41DFE0302A74C67BEDF06071E7DCF3F /* ZhugeioAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZhugeioAnalytics.modulemap; sourceTree = "<group>"; };
+		D4504C2DE7C0C95B7C00DF84C321010B /* SensorsAnalyticsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SensorsAnalyticsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		D4B166DD9DD0565A28BC6E00C3AE5F56 /* UIView+ZGView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZGView.h"; path = "Zhugeio/ZGVisualization/UIView+ZGView.h"; sourceTree = "<group>"; };
+		D6111EFC9EA15015A11330A7E95F56E4 /* NSObject+ZACellClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ZACellClick.m"; path = "Zhugeio/AutoTrack/NSObject+ZACellClick.m"; sourceTree = "<group>"; };
+		D68B32DC0B2148A1D8BB4A68B71756CB /* Pods-dailyDetailTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dailyDetailTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D69B8EA0B2B03803C32988DD0E285DD1 /* ZhugePrivates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugePrivates.h; path = Zhugeio/ZGCore/ZhugePrivates.h; sourceTree = "<group>"; };
+		D7D9684B67B8752135BA728DF2CFBD60 /* RSA+AES.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "RSA+AES.m"; path = "Zhugeio/ZGCore/RSA+AES.m"; sourceTree = "<group>"; };
+		D8AA82E78AB1E9AF7B26685B1A84B51F /* MPApplicationStateSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPApplicationStateSerializer.h; path = Zhugeio/Codeless/MPApplicationStateSerializer.h; sourceTree = "<group>"; };
+		DA350B8BA8FC1A1D92DF30D987728B1D /* NSString+ZGMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ZGMD5.m"; path = "Zhugeio/ZGVisualization/NSString+ZGMD5.m"; sourceTree = "<group>"; };
+		DA85FDB0DA5C4A9A4A6B0D482E29518C /* ZGSqliteManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGSqliteManager.m; path = Zhugeio/ZGSee/ZGSqliteManager.m; sourceTree = "<group>"; };
+		DC66FCFE848B3CED7AE856FCABEFFD23 /* MPUITableViewBinding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPUITableViewBinding.h; path = Zhugeio/Codeless/MPUITableViewBinding.h; sourceTree = "<group>"; };
+		DDEAD447247DFA15F1E4DB584614F80C /* AppsFlyerLib_Privacy.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppsFlyerLib_Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE09082C5ECAD99BD2956D68C420F204 /* MPApplicationStateSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPApplicationStateSerializer.m; path = Zhugeio/Codeless/MPApplicationStateSerializer.m; sourceTree = "<group>"; };
+		DE68123D3ADCE6E808C9C0E65C4F2574 /* ZAAutoTrackProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZAAutoTrackProperty.h; path = Zhugeio/AutoTrack/ZAAutoTrackProperty.h; sourceTree = "<group>"; };
+		DED8F6E57F4C3591CE45D6916AFF229C /* MPDisplayTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPDisplayTrigger.h; path = Zhugeio/Codeless/MPDisplayTrigger.h; sourceTree = "<group>"; };
+		E0A5DACD5166EA6968117733C4049B96 /* ZGVisualizationSocketMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGVisualizationSocketMessage.m; path = Zhugeio/ZGVisualization/ZGVisualizationSocketMessage.m; sourceTree = "<group>"; };
+		E24FDABA27E81F6443F313D33B09C924 /* MPPropertyDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPPropertyDescription.h; path = Zhugeio/Codeless/MPPropertyDescription.h; sourceTree = "<group>"; };
+		E29E9CAB7A2C5DF0852CDC23F591DE24 /* MPObjectIdentityProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectIdentityProvider.h; path = Zhugeio/Codeless/MPObjectIdentityProvider.h; sourceTree = "<group>"; };
+		E4ED3A4514BCD58F1E19314FA70B6FB6 /* NSThread+Helpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSThread+Helpers.h"; path = "Zhugeio/Codeless/NSThread+Helpers.h"; sourceTree = "<group>"; };
+		E4F27DB3472B5E42B53C7D8514F03975 /* MPNSAttributedStringToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPNSAttributedStringToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPNSAttributedStringToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		E6FD617BF87DAE5C33BDE04ED730D8E6 /* Pods-dailyDetail-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dailyDetail-resources.sh"; sourceTree = "<group>"; };
+		E78519554A018B2A5524260AD162BA9C /* Pods-dailyDetailTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dailyDetailTests-Info.plist"; sourceTree = "<group>"; };
+		E8AA6CA36427BCF1FE4525B000A6EC4A /* ZADelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZADelegateProxy.m; path = Zhugeio/AutoTrack/ZADelegateProxy.m; sourceTree = "<group>"; };
+		E92B5B039BB1AD6B52309E930E4575EC /* MPCGAffineTransformToNSDictionaryValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPCGAffineTransformToNSDictionaryValueTransformer.m; path = Zhugeio/Codeless/MPCGAffineTransformToNSDictionaryValueTransformer.m; sourceTree = "<group>"; };
+		E98C0C3C095BE957B17B450A3F701759 /* ZhugeCompres.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZhugeCompres.h; path = Zhugeio/Utils/ZhugeCompres.h; sourceTree = "<group>"; };
+		EB0EBE899EEE16868A96465B0F7E4689 /* MPUICollectionViewBinding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPUICollectionViewBinding.m; path = Zhugeio/Codeless/MPUICollectionViewBinding.m; sourceTree = "<group>"; };
+		EBE5F128E717CEC63893D8BA24D9FE5E /* Pods_dailyDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dailyDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB7E7A83E070DBA3C4279894016F667 /* ZGRequestManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGRequestManager.m; path = Zhugeio/Utils/ZGRequestManager.m; sourceTree = "<group>"; };
+		ED32ED6D5BDF1D95566E8B0AEE5A938D /* Zhuge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Zhuge.m; path = Zhugeio/ZGCore/Zhuge.m; sourceTree = "<group>"; };
+		EF2B88079E50C2025471AF32CBAFAC20 /* MPBOOLToNSNumberValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPBOOLToNSNumberValueTransformer.m; path = Zhugeio/Codeless/MPBOOLToNSNumberValueTransformer.m; sourceTree = "<group>"; };
+		F0FE48DC88F19E106C8F1E75BA4F9DF2 /* ZhugeioAnalytics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZhugeioAnalytics-Info.plist"; sourceTree = "<group>"; };
+		F23189208CC1CC904663419A5F9B523D /* UIView+MPHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MPHelpers.h"; path = "Zhugeio/Codeless/UIView+MPHelpers.h"; sourceTree = "<group>"; };
+		F3F8137CC7F5FD95380CE9AA2826701F /* NSTimer+ZGWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+ZGWeakTimer.m"; path = "Zhugeio/ZGVisualization/NSTimer+ZGWeakTimer.m"; sourceTree = "<group>"; };
+		F8B1E3305B961FCD274FFD99248BDDA9 /* MPObjectSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MPObjectSerializer.h; path = Zhugeio/Codeless/MPObjectSerializer.h; sourceTree = "<group>"; };
+		F92B9C564A5CA363A89BA0EEE0FD5570 /* ZGUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGUtil.m; path = Zhugeio/ZGSee/ZGUtil.m; sourceTree = "<group>"; };
+		F9AF614B2E17C27FE476B178C59343E6 /* AppsFlyerFramework-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "AppsFlyerFramework-xcframeworks.sh"; sourceTree = "<group>"; };
+		FA697C88EE65396DD2830DCE24D30558 /* ZGABTestDesignerDeviceInfoResponseMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGABTestDesignerDeviceInfoResponseMessage.h; path = Zhugeio/Codeless/ZGABTestDesignerDeviceInfoResponseMessage.h; sourceTree = "<group>"; };
+		FB062D93BDD2EB53496536AE5A36ED20 /* ZhugeConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZhugeConfig.m; path = Zhugeio/ZGCore/ZhugeConfig.m; sourceTree = "<group>"; };
+		FB1B59208B06255783D05D6F792F5863 /* MPABTestDesignerTweakResponseMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPABTestDesignerTweakResponseMessage.m; path = Zhugeio/Codeless/MPABTestDesignerTweakResponseMessage.m; sourceTree = "<group>"; };
+		FBBF34F78B6F18142D56FF1EAF44C321 /* RSA+AES.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSA+AES.h"; path = "Zhugeio/ZGCore/RSA+AES.h"; sourceTree = "<group>"; };
+		FD47C4792E218FE02A4E3D7BD5168583 /* ZGSharedDur.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZGSharedDur.h; path = Zhugeio/ZGSee/ZGSharedDur.h; sourceTree = "<group>"; };
+		FEEFDB6B8EAB97FC135B9A4D1187E8E6 /* MPDesignerEventBindingResponseMesssage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MPDesignerEventBindingResponseMesssage.m; path = Zhugeio/Codeless/MPDesignerEventBindingResponseMesssage.m; sourceTree = "<group>"; };
+		FF8B5A7B3F05A7AC519E7256AD1A31D7 /* ZGAbstractABTestDesignerMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZGAbstractABTestDesignerMessage.m; path = Zhugeio/Codeless/ZGAbstractABTestDesignerMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58D4A5FEC09DC85890351275F5E34C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B340FCDDAE23BB7B92DE5F0AF290D599 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6786BC9468BC2848FCB8A2A43872680C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18B82797E4E91B7A8682DC769EEFF73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9A5411235A4CFD5C681D9C2ECAF647 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4C5635C5EE174B74E74AC3F6EE9AA96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A0544177030D00F8AFC581F5F97A24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97340474665281340FF4C4EABB9BB81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA87EA56A648AA7E810A5547F5E99BD /* Foundation.framework in Frameworks */,
+				845DF52FDE71E0952BD88545E007DAF4 /* SystemConfiguration.framework in Frameworks */,
+				A82471852944820FBAB6C9ACB0F34143 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3939021890D3EFA367A00190A7B5C9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016170F9C6876B783EE59E5BEEBBC509 /* Pods-dailyDetailTests */ = {
+			isa = PBXGroup;
+			children = (
+				63F0D609EE015F01120D39977DF82413 /* Pods-dailyDetailTests.modulemap */,
+				015794B02C51FB69753CCFAF51F5539F /* Pods-dailyDetailTests-acknowledgements.markdown */,
+				D68B32DC0B2148A1D8BB4A68B71756CB /* Pods-dailyDetailTests-acknowledgements.plist */,
+				8F28D58047F74FE430ABBB6627655858 /* Pods-dailyDetailTests-dummy.m */,
+				E78519554A018B2A5524260AD162BA9C /* Pods-dailyDetailTests-Info.plist */,
+				BB1BD3F00DF48FCAE582EFE41A916A99 /* Pods-dailyDetailTests-umbrella.h */,
+				6378CE742DAE5BF51AAC4BCEAA1E0748 /* Pods-dailyDetailTests.debug.xcconfig */,
+				5BD830B59A3296491212916A4E0947CA /* Pods-dailyDetailTests.release.xcconfig */,
+			);
+			name = "Pods-dailyDetailTests";
+			path = "Target Support Files/Pods-dailyDetailTests";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818AC0F2FB083542C9C4C42E3F9B4B62 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F97D2087A7371E1ED250F2E4163ADE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEAD447247DFA15F1E4DB584614F80C /* AppsFlyerLib_Privacy.bundle */,
+				EBE5F128E717CEC63893D8BA24D9FE5E /* Pods_dailyDetail.framework */,
+				C0F42A8E7F9DB4671E34C84FBD08D5AB /* Pods_dailyDetail_dailyDetailUITests.framework */,
+				817E0C9BF84CBE65D75341753AC52F71 /* Pods_dailyDetailTests.framework */,
+				B09F53F95004416CAB25932C1D3E04FB /* SensorsAnalyticsSDK.bundle */,
+				B66687ECED220C80165D1ED191488062 /* ZhugeioAnalytics.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17015B263ACBC102F66922A0C4F85784 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9AF614B2E17C27FE476B178C59343E6 /* AppsFlyerFramework-xcframeworks.sh */,
+				5E942594801C74F2BD6D804F3EBBC1ED /* AppsFlyerFramework.debug.xcconfig */,
+				87DC67072452733FAC36FBFA4AB47EAA /* AppsFlyerFramework.release.xcconfig */,
+				B45E6DFBC37C695DFE5A5617959E8C77 /* ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppsFlyerFramework";
+			sourceTree = "<group>";
+		};
+		285F56E8942140EBA2BD29FA0293A540 /* SensorsAnalyticsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				39787C936EFAB0CBD37F3755B56B8DC5 /* Core */,
+				2CBD306C6D8F3ED49575BF7215E39DB8 /* Support Files */,
+			);
+			path = SensorsAnalyticsSDK;
+			sourceTree = "<group>";
+		};
+		2CBD306C6D8F3ED49575BF7215E39DB8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D30286D6670886334E1AB54E89BFEE36 /* ResourceBundle-SensorsAnalyticsSDK-SensorsAnalyticsSDK-Info.plist */,
+				D4504C2DE7C0C95B7C00DF84C321010B /* SensorsAnalyticsSDK-xcframeworks.sh */,
+				7D0003B2E5196450E2FE72D22414410A /* SensorsAnalyticsSDK.debug.xcconfig */,
+				7D72DD090C405F37FC3EE580851BF253 /* SensorsAnalyticsSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SensorsAnalyticsSDK";
+			sourceTree = "<group>";
+		};
+		34D87A1A485D3806395051793A8685F4 /* AppsFlyerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6CA28CBDA49946B684BFBEFECD9C8CE9 /* Main */,
+				17015B263ACBC102F66922A0C4F85784 /* Support Files */,
+			);
+			path = AppsFlyerFramework;
+			sourceTree = "<group>";
+		};
+		39787C936EFAB0CBD37F3755B56B8DC5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D192A33348D6951FEDBCA4AE471BCB38 /* Frameworks */,
+				8DFF04BA962A4275FD1D6EA23FC02B4E /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		69CC58D743392F0C59517080A1BFC3F0 /* Pods-dailyDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9A1D1EF48362BF3322682ACFCDE09B5C /* Pods-dailyDetail.modulemap */,
+				3567FE18BF19B750ED1BE270AC8D899A /* Pods-dailyDetail-acknowledgements.markdown */,
+				AEF96DBC68706FC1A95D63DAB2F9B6CB /* Pods-dailyDetail-acknowledgements.plist */,
+				8A236FCB74524668C68E17D36982B13D /* Pods-dailyDetail-dummy.m */,
+				461470C1B860BC56A6AC75F1E830D7DC /* Pods-dailyDetail-frameworks.sh */,
+				02CE37AA969C3263CC71558F6E319550 /* Pods-dailyDetail-Info.plist */,
+				E6FD617BF87DAE5C33BDE04ED730D8E6 /* Pods-dailyDetail-resources.sh */,
+				4C78DBC17C63DF820647558A33920100 /* Pods-dailyDetail-umbrella.h */,
+				55521BEB32F40CCE9C3847E61E040CC1 /* Pods-dailyDetail.debug.xcconfig */,
+				2F98C2D975F927513363DC9DE3887790 /* Pods-dailyDetail.release.xcconfig */,
+			);
+			name = "Pods-dailyDetail";
+			path = "Target Support Files/Pods-dailyDetail";
+			sourceTree = "<group>";
+		};
+		6CA28CBDA49946B684BFBEFECD9C8CE9 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				97B12B604D8FEB99A1DD763494E2AE2F /* Frameworks */,
+				E35FE7977BB763042F776F2BBE840F0B /* Resources */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		818AC0F2FB083542C9C4C42E3F9B4B62 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1EAF735E00D2A60AD4BA9E54471653F7 /* Foundation.framework */,
+				B844B31778A4EEB566AF063949C5A5C6 /* SystemConfiguration.framework */,
+				0D6CA0DBF0C564C15B1D03EF3A59DD26 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8DFF04BA962A4275FD1D6EA23FC02B4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0F49B0DDFB7D0F3C4DFECE248270ED33 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		97B12B604D8FEB99A1DD763494E2AE2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BA5D2CB11EB93A4EA27241CBD54188C /* AppsFlyerLib.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99039987EA83D5080A0C8C5CD731F88E /* ZhugeioAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				43E7A365A2DC09429A077C545889BCF7 /* _MPTweakBindObserver.h */,
+				5CFF748A788251977FF9940983D5C85C /* _MPTweakBindObserver.m */,
+				6B5F9C87FD0E796395DABC15340F7316 /* MPABTestDesignerSnapshotResponseMessage.h */,
+				1BE773528113344A4EB2BAF3BD593AAD /* MPABTestDesignerSnapshotResponseMessage.m */,
+				CEE4858E79F506EDCAEFC3994A83CA8B /* MPABTestDesignerTweakRequestMessage.h */,
+				A12CBC51791850BC2BCE02E1F35116DF /* MPABTestDesignerTweakRequestMessage.m */,
+				C824588E7396F2432D2CD7C12BDFEB99 /* MPABTestDesignerTweakResponseMessage.h */,
+				FB1B59208B06255783D05D6F792F5863 /* MPABTestDesignerTweakResponseMessage.m */,
+				D8AA82E78AB1E9AF7B26685B1A84B51F /* MPApplicationStateSerializer.h */,
+				DE09082C5ECAD99BD2956D68C420F204 /* MPApplicationStateSerializer.m */,
+				EF2B88079E50C2025471AF32CBAFAC20 /* MPBOOLToNSNumberValueTransformer.m */,
+				133CF93614C6BCC7C35D0F5E3CDD247B /* MPCATransform3DToNSDictionaryValueTransformer.m */,
+				E92B5B039BB1AD6B52309E930E4575EC /* MPCGAffineTransformToNSDictionaryValueTransformer.m */,
+				8303BCB3222B34E72609A58B2223FBB9 /* MPCGColorRefToNSStringValueTransformer.m */,
+				A3FC3D0D15C38666043C98D52CF4022E /* MPCGPointToNSDictionaryValueTransformer.m */,
+				B807BC8C2E71A83D6F1641C986B4F89F /* MPCGRectToNSDictionaryValueTransformer.m */,
+				484B6430EA37095298BCC9BFEB8FC158 /* MPCGSizeToNSDictionaryValueTransformer.m */,
+				3A0AE61FFB120E3978AF826B0565028C /* MPClassDescription.h */,
+				584D6B5B936A0F6696D3C4E8FA02C75A /* MPClassDescription.m */,
+				955D89E91BF62E915180F5ECBF6170D1 /* MPDesignerEventBindingMessage.h */,
+				24B04AB08A76E7BEF4183BDE4E70B72B /* MPDesignerEventBindingRequestMesssage.m */,
+				FEEFDB6B8EAB97FC135B9A4D1187E8E6 /* MPDesignerEventBindingResponseMesssage.m */,
+				145BCCC823841A0C133445C9549D7171 /* MPDesignerSessionCollection.h */,
+				17849BF52711B0F7F1E1D9B9E1FC78C6 /* MPDesignerTrackMessage.m */,
+				DED8F6E57F4C3591CE45D6916AFF229C /* MPDisplayTrigger.h */,
+				BBA756841559FABC3BA020272C0095E5 /* MPDisplayTrigger.m */,
+				0DE1DE5664EBFA4FCFF3386E86BCF7D8 /* MPEnumDescription.h */,
+				AE0E9600A440DDB9E14DB3D90DC5C92A /* MPEnumDescription.m */,
+				B65974F9FC83C37762324F260E923AD8 /* MPFoundation.h */,
+				E4F27DB3472B5E42B53C7D8514F03975 /* MPNSAttributedStringToNSDictionaryValueTransformer.m */,
+				4573117ED7075428DD725E154E9E1E42 /* MPNSNumberToCGFloatValueTransformer.m */,
+				32B068AFBFECF40EBBF9302583B92B9C /* MPObjectIdentifierProvider.h */,
+				E29E9CAB7A2C5DF0852CDC23F591DE24 /* MPObjectIdentityProvider.h */,
+				AFB5FE7170790BC5E2F6BF72794D9463 /* MPObjectIdentityProvider.m */,
+				3E6791E397FFF69841FA0444F571089B /* MPObjectSelector.h */,
+				CA716081233648C4A88C14A8A0406CE6 /* MPObjectSelector.m */,
+				F8B1E3305B961FCD274FFD99248BDDA9 /* MPObjectSerializer.h */,
+				04C58E18B9049F98A9431AA6FDE74202 /* MPObjectSerializer.m */,
+				CDEF17A76C70BD475C7C7ADC408ADB12 /* MPObjectSerializerConfig.h */,
+				0D3D2B9DED81F20C522E96445B22D3F0 /* MPObjectSerializerConfig.m */,
+				8566612243A3861CAE91A05DDBDEE147 /* MPObjectSerializerContext.h */,
+				A89B9C43DB0BFB8CE2B778294CC94483 /* MPObjectSerializerContext.m */,
+				39D1C56F76D8E90DD19094A61B040302 /* MPPassThroughValueTransformer.m */,
+				E24FDABA27E81F6443F313D33B09C924 /* MPPropertyDescription.h */,
+				37FD13DD5DC2EF8B7FEAD165D8102B18 /* MPPropertyDescription.m */,
+				ACEEA7E9D75105C96B3DA03118147A3A /* MPSequenceGenerator.h */,
+				B0ECAA89DFB69A4D87211E3920301C8D /* MPSequenceGenerator.m */,
+				4EC0E2E8E3C98DDBF464054145A40047 /* MPSwizzle.h */,
+				6383A63865E37E4D6051726803E028B1 /* MPSwizzle.m */,
+				2B3487D125C782CA15501D73DBEAA803 /* MPSwizzler.h */,
+				20B02B205CD5E0A25E72616FC83A3AC8 /* MPSwizzler.m */,
+				46F5691BC1D830089FD509174ED0AD87 /* MPTweak.h */,
+				C1EFEF4B21B1389C1B7C17893AC92FB1 /* MPTweak.m */,
+				9B7CB0BBCD332375A3F8F8B1648FFAD6 /* MPTweakInline.h */,
+				5638AC5AE94D73E900EDFB8CDC489C1B /* MPTweakInline.m */,
+				91E19963B0660CF6DB5776495B7D7C27 /* MPTweakInlineInternal.h */,
+				715B19DEEC69F8997E4BB198634BF5C3 /* MPTweakStore.h */,
+				984304153858908BF8E9174590DCD678 /* MPTweakStore.m */,
+				C7AD716012F2C277CA542724CDB79DC2 /* MPTypeDescription.h */,
+				68449FE7D00A448267FE2A054079D041 /* MPTypeDescription.m */,
+				669FCC187FAD44FBB1AD2988D1EB21C9 /* MPUICollectionViewBinding.h */,
+				EB0EBE899EEE16868A96465B0F7E4689 /* MPUICollectionViewBinding.m */,
+				B807C2389EDC8C4CC59BECEE0065CB10 /* MPUIColorToNSStringValueTransformer.m */,
+				6B2A9D647B3810C417A03838ABAA8A88 /* MPUIControlBinding.h */,
+				33F5884821AC3E4DCE04A2CA3E62D13F /* MPUIControlBinding.m */,
+				631122550B0A221757545BDEC5176E1C /* MPUIEdgeInsetsToNSDictionaryValueTransformer.m */,
+				ADB3C6764205C0D9F9EE0E1C88E3FA53 /* MPUIFontToNSDictionaryValueTransformer.m */,
+				BC704530779F05117C07B73AA4937C5C /* MPUIImageToNSDictionaryValueTransformer.m */,
+				DC66FCFE848B3CED7AE856FCABEFFD23 /* MPUITableViewBinding.h */,
+				A05A0F08010FC507D4080F3AAFA1E025 /* MPUITableViewBinding.m */,
+				848EF173C89DC3DBAFDCA8E39DB7501E /* MPValueTransformers.h */,
+				60CA5DC275AFBC54F7B6415109AAE0C2 /* NSInvocation+MPHelpers.h */,
+				7D50890B1D60221D70B1A37FE04F90A1 /* NSInvocation+MPHelpers.m */,
+				CDB59E97821493715B307595E275E518 /* NSObject+ZACellClick.h */,
+				D6111EFC9EA15015A11330A7E95F56E4 /* NSObject+ZACellClick.m */,
+				73915BFA1E77D3862E21E98F8EF867B5 /* NSObject+ZGResponseID.h */,
+				A666D3C7494F980DAA792FE5F48F8D51 /* NSObject+ZGResponseID.m */,
+				5BEEF209AD705043224328860CE67D77 /* NSString+ZGMD5.h */,
+				DA350B8BA8FC1A1D92DF30D987728B1D /* NSString+ZGMD5.m */,
+				E4ED3A4514BCD58F1E19314FA70B6FB6 /* NSThread+Helpers.h */,
+				168EF8CE9BE84F3D6198A6B15DCA02AE /* NSThread+Helpers.m */,
+				D0FFD8FD8A8BFBB70284B3FB359CBA13 /* NSTimer+ZGWeakTimer.h */,
+				F3F8137CC7F5FD95380CE9AA2826701F /* NSTimer+ZGWeakTimer.m */,
+				FBBF34F78B6F18142D56FF1EAF44C321 /* RSA+AES.h */,
+				D7D9684B67B8752135BA728DF2CFBD60 /* RSA+AES.m */,
+				A6A28FB62CBEC786C410D9CDB56D4F98 /* SelectorEvaluator.h */,
+				77C95030D03889CA96E4C11F58DCA1E4 /* SelectorEvaluator.m */,
+				59C430FA58604C7ABB3F362C7D97518D /* SessionMetadata.h */,
+				23E4302F56D97EE9FBF2989F0DE66795 /* SessionMetadata.m */,
+				9174CFAEEB39E6B145048DC05C729F4A /* ShakeGesture.h */,
+				06BDA6BB44AB74D64863AC6829EDE8EE /* ShakeGesture.m */,
+				302E7130CFE319C747B9E9E4FC987D9C /* UIApplication+Zhuge.h */,
+				0078284C4EDFF6C1356F0D19B094EB88 /* UIApplication+Zhuge.m */,
+				5B1E0EAA48BC98BD6FFE89E36AB89E2D /* UIColor+MPColor.h */,
+				5560D6E19AF0FBACE7C09B18D441D578 /* UIColor+MPColor.m */,
+				91899F74362A7E3277D45F003692CE40 /* UIControl+ZGClick.h */,
+				8842A1DF31EE6DBEE9E6061B8EE70C09 /* UIControl+ZGClick.m */,
+				2848CDE072D24EA72A1C1E4BFDF20EF2 /* UIGestureRecognizer+Zhuge.h */,
+				BA0A0754154B153FA5329625572E920F /* UIGestureRecognizer+Zhuge.m */,
+				650D548EE7DF8D8DB72E30A0B1FA7A18 /* UIImage+MPAverageColor.h */,
+				06BA9BBF10C59DA7E618C3482D25E70F /* UIImage+MPAverageColor.m */,
+				36D27585C681E6CAA7C829C69E796FBB /* UIImage+MPImageEffects.h */,
+				62D33A0F7C2543F140D0D28F3923B8B9 /* UIImage+MPImageEffects.m */,
+				C9A265BE72D5B51C9F499324A6BC1D23 /* UIImage+ZGDifference.h */,
+				075461FC94462469B7B9D876B0E9BE54 /* UIImage+ZGDifference.m */,
+				A6C127F6DA2A6239E71CBF77D33A889D /* UIScrollView+ZGAutoTrack.h */,
+				35FCBCCFA6A6D42C419B776D030DF4E4 /* UIScrollView+ZGAutoTrack.m */,
+				F23189208CC1CC904663419A5F9B523D /* UIView+MPHelpers.h */,
+				00B2C2C73E092F86087DF19639283E44 /* UIView+MPHelpers.m */,
+				40FFF047F9733AB4F2BD765E774D0282 /* UIView+ZAExpView.h */,
+				CE2290F016EDF87B9111BD1A3D3265BF /* UIView+ZAExpView.m */,
+				D4B166DD9DD0565A28BC6E00C3AE5F56 /* UIView+ZGView.h */,
+				A9AB205A6E15CC23F8D380EA2DC31F8E /* UIView+ZGView.m */,
+				9C53B19A8EBC396195B22D474AB51B0E /* UIViewController+ZGAutoTrack.h */,
+				9A9543F433074FCBEE667B475D57EAE5 /* UIViewController+ZGAutoTrack.m */,
+				3ACC332F9BBB3EA1CC8D444F2A93E431 /* UIWindow+ZGView.h */,
+				61C112A7AD7C9F65A7F512DFD3EB5E00 /* UIWindow+ZGView.m */,
+				17ECE1BD4A73ED61F52C234CC0E270CA /* WKWebView+ZABridge.h */,
+				1A90F83DD21D06A56B35F7DBA5D6320E /* WKWebView+ZABridge.m */,
+				DE68123D3ADCE6E808C9C0E65C4F2574 /* ZAAutoTrackProperty.h */,
+				66D57FB9FA1EFFBC0AB3E60962331087 /* ZAClassHelper.h */,
+				4F427AFBFBE3872174F985EAAAFB3098 /* ZAClassHelper.m */,
+				1BA279ABD8E09220B3A0DD99F73F33A2 /* ZAConstants.h */,
+				5F8E7369E897285E1CE2C197F9C2F2E1 /* ZAConstants.m */,
+				2453313B8CB484A4A97C69D647F87F97 /* ZAConstants+Private.h */,
+				4FF4ADF505E778745A50925162D2B0A4 /* ZADelegateProxy.h */,
+				E8AA6CA36427BCF1FE4525B000A6EC4A /* ZADelegateProxy.m */,
+				4AE4FF79D7CCB51F7611FE53BFBD62C4 /* ZADeviceId.h */,
+				82A27CC5B467F22445F800BC2E962C0F /* ZADeviceId.m */,
+				67547A0F9D8EC8D3A7D1B22AF1E8B0C0 /* ZAMethodHelper.h */,
+				71C9F4BE1F149DB0476067D8DD367849 /* ZAMethodHelper.m */,
+				3497165747FDC70078AF3168F79F8AE7 /* ZASwizzle.h */,
+				222841597B5AB8913FA9DF6BB474FEE4 /* ZASwizzle.m */,
+				2839EC83420BB70D9FA96DBA7D48B0D6 /* ZAViews.h */,
+				147BAE2B7CE1D42F634F010515BDBF46 /* ZAViews.m */,
+				64FC09697EFA33F9E157E7FC0145797B /* ZGAbstractABTestDesignerMessage.h */,
+				FF8B5A7B3F05A7AC519E7256AD1A31D7 /* ZGAbstractABTestDesignerMessage.m */,
+				1D77044104C15AF0902EB2E338E4B5AB /* ZGABTestDesignerChangeRequestMessage.h */,
+				2CC2CD95302A0D8BA597EB5D09EB81CE /* ZGABTestDesignerChangeRequestMessage.m */,
+				CBEBF90F0598505A90E3D0066F3CC5B7 /* ZGABTestDesignerChangeResponseMessage.h */,
+				95B238465A1BE7BFBE00DD414BF4379D /* ZGABTestDesignerChangeResponseMessage.m */,
+				9AF5C69878616F6BA3FA18B880E2EA04 /* ZGABTestDesignerClearRequestMessage.h */,
+				428ED56195FB28A4D1F70E0DB291AA31 /* ZGABTestDesignerClearRequestMessage.m */,
+				4A0148828F2A8C954EB73A55662EE287 /* ZGABTestDesignerClearResponseMessage.h */,
+				C74BF74D8A58C5652301C0397B52DB86 /* ZGABTestDesignerClearResponseMessage.m */,
+				6055506EAFDA2F5A0971FC42D1FB3CDF /* ZGABTestDesignerConnection.h */,
+				60EC6A90C9F50C0F8A7CF1262BB856C2 /* ZGABTestDesignerConnection.m */,
+				473D97AB8F8C8C37F7BE711E6FD6DA98 /* ZGABTestDesignerDeviceInfoRequestMessage.h */,
+				0F55B7826570EB3715B982D396DD78D0 /* ZGABTestDesignerDeviceInfoRequestMessage.m */,
+				FA697C88EE65396DD2830DCE24D30558 /* ZGABTestDesignerDeviceInfoResponseMessage.h */,
+				51652DEB9161818CFE8EDF5DC8FBCE03 /* ZGABTestDesignerDeviceInfoResponseMessage.m */,
+				51E4BB9771F3809947088959D42453DE /* ZGABTestDesignerDisconnectMessage.h */,
+				5CD3DB037A1610318C72B528315863D5 /* ZGABTestDesignerDisconnectMessage.m */,
+				C829812DCB16C6DCEC0BAA7F1B6F59DE /* ZGABTestDesignerMessage.h */,
+				5BA2F1E97AEEF662528A187CBA26F94F /* ZGABTestDesignerSnapshotRequestMessage.h */,
+				A31809800D4548676BB8A4B532E8C58E /* ZGABTestDesignerSnapshotRequestMessage.m */,
+				30D37A714FB9046E5BB3FC78E1E3BF1E /* ZGCMMotionManager.h */,
+				141448D05DB6EEB335B6743B16497C92 /* ZGCMMotionManager.m */,
+				3E32FD50D1A6602CFA88F47050416355 /* ZGDeviceInfo.h */,
+				CAE6BCA32878AE1B8EBF97E0083A29F1 /* ZGDeviceInfo.m */,
+				7773914C0409763C6D5E561D4128FBAF /* ZGEventBinding.h */,
+				CE97329CEB5DE4D4D7F3371E6E1BDE90 /* ZGEventBinding.m */,
+				8F189EC238DA5A5E6DB89C0A88037458 /* ZGHttpHelper.h */,
+				0103A65231767D5292862152DAA1D6DD /* ZGHttpHelper.m */,
+				D2C2D615F3FD78115684506A02E2ED58 /* ZGIDFAUtil.h */,
+				0373BB61F876C83DA8A7E7A00B30BB9A /* ZGIDFAUtil.m */,
+				3372C71479FDDC008514C5C45CE9B797 /* ZGLog.h */,
+				46A6BB00F71A3DDB6EF6EB2E71CFA1D9 /* ZGReachability.h */,
+				6B74B6D0E6C5C7385369EE6B4C4ED3C5 /* ZGReachability.m */,
+				5B2117EA77994333204B55081920D14E /* ZGRequest.h */,
+				A598B12F0405EFEE4CA750CEFB19562D /* ZGRequest.m */,
+				3E9309CC3F55C36C4D726ED4F967B9BD /* ZGRequestManager.h */,
+				ECB7E7A83E070DBA3C4279894016F667 /* ZGRequestManager.m */,
+				FD47C4792E218FE02A4E3D7BD5168583 /* ZGSharedDur.h */,
+				6FCFE826275153F8364F24F1D88ADCAB /* ZGSharedDur.m */,
+				BD7357C8F78B91D7F2B4C174019F4FE7 /* ZGSqliteManager.h */,
+				DA85FDB0DA5C4A9A4A6B0D482E29518C /* ZGSqliteManager.m */,
+				968165A60A381DEA34A60909409333E5 /* ZGUtil.h */,
+				F92B9C564A5CA363A89BA0EEE0FD5570 /* ZGUtil.m */,
+				30890F4CDCF5DF6D12281E3DFEBD5F2C /* ZGUtils.h */,
+				B400587C0D8A5ADB8D3CDE82CA7FFCB9 /* ZGUtils.m */,
+				3E7A58A14A24B13C482C0A52028D1F2F /* ZGVariant.h */,
+				CC5B7871CC1B853379D4340C8ECFD49E /* ZGVariant.m */,
+				343028726AE44E63E8532AF0D6E01A15 /* ZGVisualizationManager.h */,
+				89EE0DD9D2B73C750BE7E143533C0614 /* ZGVisualizationManager.m */,
+				98BB29FB3D7C4FDBA490CD20BCE96F7B /* ZGVisualizationSocketMessage.h */,
+				E0A5DACD5166EA6968117733C4049B96 /* ZGVisualizationSocketMessage.m */,
+				CFB521E2884E12775E89FFA5E0BFC6E2 /* ZGVisualizedTool.h */,
+				0A1DAE2C28DD4EE5CE3255301E94C1BC /* ZGVisualizedTool.m */,
+				6FDB11FFEF142EAF692B9C53D81D8929 /* ZGWebSocket.h */,
+				5CD30B8A287EFADC6D4CE07484387142 /* ZGWebSocket.m */,
+				98E6793A027D892B1198A2D29B50192F /* Zhuge.h */,
+				ED32ED6D5BDF1D95566E8B0AEE5A938D /* Zhuge.m */,
+				BFABF90BE73A47008D23F2FBDDA39FAB /* ZhugeAutoTrackUtils.h */,
+				5600E267399A39E99E1CBC22665E05BE /* ZhugeAutoTrackUtils.m */,
+				CB5A251AA89EBA6B21A76EA9A83D22DB /* ZhugeBase64.h */,
+				631ED0E25E1FACC35BFE13214F343D65 /* ZhugeBase64.m */,
+				E98C0C3C095BE957B17B450A3F701759 /* ZhugeCompres.h */,
+				432932D675742A6EBB7E9FAB92DD62F8 /* ZhugeCompres.m */,
+				3FBA876E61FCB15E206A7ACCB77261AB /* ZhugeConfig.h */,
+				FB062D93BDD2EB53496536AE5A36ED20 /* ZhugeConfig.m */,
+				B28DCD87E407FF0812A61F87B7E77EAB /* ZhugeConstants.h */,
+				A40F57A395D4A8E3814B63DDB0FC5F33 /* ZhugeEventProperty.h */,
+				8E0BC940EE31F4055A4F8BE18253FC1E /* ZhugeHeaders.h */,
+				7D69283ECFE89E356778896036D139BD /* ZhugeJS.h */,
+				9CA3661241F3C1DFB580F74D24FB5BAC /* ZhugeJS.m */,
+				D69B8EA0B2B03803C32988DD0E285DD1 /* ZhugePrivates.h */,
+				AB253163E3DCCE5562E8412F6335918C /* ZhugeSwizzle.h */,
+				77AA2B3251FA401099AA8D967F8BBC4E /* ZhugeSwizzle.m */,
+				ABB83838150FB495DF989A643C051707 /* Support Files */,
+			);
+			path = ZhugeioAnalytics;
+			sourceTree = "<group>";
+		};
+		ABB83838150FB495DF989A643C051707 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D41DFE0302A74C67BEDF06071E7DCF3F /* ZhugeioAnalytics.modulemap */,
+				6B696ED5FCC72A676B390B72F0FFA459 /* ZhugeioAnalytics-dummy.m */,
+				F0FE48DC88F19E106C8F1E75BA4F9DF2 /* ZhugeioAnalytics-Info.plist */,
+				8A4E0E1FC97F5742231F75A9264CA1EC /* ZhugeioAnalytics-prefix.pch */,
+				8BA1A5AC2402179839D52D3FF3961847 /* ZhugeioAnalytics-umbrella.h */,
+				0B5233C2A500F1B8FC25F7A7FA0A4149 /* ZhugeioAnalytics.debug.xcconfig */,
+				A70F6843912153EBDD81CA862F9182E1 /* ZhugeioAnalytics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZhugeioAnalytics";
+			sourceTree = "<group>";
+		};
+		B66572876AF015D51E5B92D0BD84338C /* Pods-dailyDetail-dailyDetailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				034FA1632BB06DF56436174DD8ED4B4A /* Pods-dailyDetail-dailyDetailUITests.modulemap */,
+				8B54F67328A38B8110991B69FBC26CCE /* Pods-dailyDetail-dailyDetailUITests-acknowledgements.markdown */,
+				CE1956AE2ED5E7E636E0F36720B4B35D /* Pods-dailyDetail-dailyDetailUITests-acknowledgements.plist */,
+				8917710F109D850E5BD0452422573A47 /* Pods-dailyDetail-dailyDetailUITests-dummy.m */,
+				372D1E5536E5618704E268DF2C8A286E /* Pods-dailyDetail-dailyDetailUITests-frameworks.sh */,
+				5C5555B4EC03D4C38B9FBEDA5381EC25 /* Pods-dailyDetail-dailyDetailUITests-Info.plist */,
+				5715033FA3507FFEF661CE8F2382E018 /* Pods-dailyDetail-dailyDetailUITests-resources.sh */,
+				591C473A454F31A7D1C5C099C605B10D /* Pods-dailyDetail-dailyDetailUITests-umbrella.h */,
+				3B5BDBDEB7866737D22031E88379FF8C /* Pods-dailyDetail-dailyDetailUITests.debug.xcconfig */,
+				121A85F7AD237BF8E1F17FFF8368A952 /* Pods-dailyDetail-dailyDetailUITests.release.xcconfig */,
+			);
+			name = "Pods-dailyDetail-dailyDetailUITests";
+			path = "Target Support Files/Pods-dailyDetail-dailyDetailUITests";
+			sourceTree = "<group>";
+		};
+		C49C700788AC87B8D2DBF6431028C186 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69CC58D743392F0C59517080A1BFC3F0 /* Pods-dailyDetail */,
+				B66572876AF015D51E5B92D0BD84338C /* Pods-dailyDetail-dailyDetailUITests */,
+				016170F9C6876B783EE59E5BEEBBC509 /* Pods-dailyDetailTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				F5B0CDD0797EEA68D5925880F8C25042 /* Pods */,
+				0F97D2087A7371E1ED250F2E4163ADE6 /* Products */,
+				C49C700788AC87B8D2DBF6431028C186 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D192A33348D6951FEDBCA4AE471BCB38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C07BCA10CF6C88CC6584703299EE88A7 /* SensorsAnalyticsSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E35FE7977BB763042F776F2BBE840F0B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				840FAD0248F40DFD4D6866E379E4D331 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5B0CDD0797EEA68D5925880F8C25042 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34D87A1A485D3806395051793A8685F4 /* AppsFlyerFramework */,
+				285F56E8942140EBA2BD29FA0293A540 /* SensorsAnalyticsSDK */,
+				99039987EA83D5080A0C8C5CD731F88E /* ZhugeioAnalytics */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37F050E1724A477677B9FF5E75CE25F0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47ABCD5FE693963D57BEA07552C48EE /* Pods-dailyDetailTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51ACA869C21EC37BF9648615DA75D8A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050FB1837C69881B0B23BD4AEB723C83 /* _MPTweakBindObserver.h in Headers */,
+				8F1EFBFE97989291C73ABDC2F7FE9EAB /* MPABTestDesignerSnapshotResponseMessage.h in Headers */,
+				FB22A231D506A9F0F4B826F5FEC5974C /* MPABTestDesignerTweakRequestMessage.h in Headers */,
+				8290265CE9FC336364AF98A15602D134 /* MPABTestDesignerTweakResponseMessage.h in Headers */,
+				5099EDBF6F3148003DADA0135D523747 /* MPApplicationStateSerializer.h in Headers */,
+				F9EC0D470252064FB088D855A2C3376C /* MPClassDescription.h in Headers */,
+				3A69CB2A81130F35F4FB024B237763FD /* MPDesignerEventBindingMessage.h in Headers */,
+				AED864CEA42FC74960C3495B2FDBD3B5 /* MPDesignerSessionCollection.h in Headers */,
+				FA9BA69DE78F485C464641C233022F6A /* MPDisplayTrigger.h in Headers */,
+				9213A4CF26A57BA9452F58FE0337BE1E /* MPEnumDescription.h in Headers */,
+				DE9C8A9123E05C9B1266FF1B5B1ACE9E /* MPFoundation.h in Headers */,
+				0C385CD02BD85048C4F9C7250DB98B7B /* MPObjectIdentifierProvider.h in Headers */,
+				3F6C76DA8EB7417BF3CD95E27C73B04A /* MPObjectIdentityProvider.h in Headers */,
+				DCEEB6264C91109362842558C7EE8A8F /* MPObjectSelector.h in Headers */,
+				81145ADD19698916A6C52264872CA14C /* MPObjectSerializer.h in Headers */,
+				F3C9F36F2A37E9D1AEE47A5F02841D66 /* MPObjectSerializerConfig.h in Headers */,
+				2E32AD3E5CC8AC3745AC030C6351E8BD /* MPObjectSerializerContext.h in Headers */,
+				C6FFA9A77C8F30414CD172B6D1FF79AA /* MPPropertyDescription.h in Headers */,
+				F3E35C42E859FE68B41D6E707DA3C8AF /* MPSequenceGenerator.h in Headers */,
+				E8E45E8281D4128B31DBEB6E4EBA9C16 /* MPSwizzle.h in Headers */,
+				AE0DACFB95AD51A8198C5FB52DA76296 /* MPSwizzler.h in Headers */,
+				46E21252C544F37BD49D354906F16890 /* MPTweak.h in Headers */,
+				AB175263B800B6261990241E167B61C1 /* MPTweakInline.h in Headers */,
+				79C7E097E27835B78AE38669F8446585 /* MPTweakInlineInternal.h in Headers */,
+				1A2DA9D0D9DAC21F2AFB2CB36CC9D8D8 /* MPTweakStore.h in Headers */,
+				EFF804A7F68E1FEC8E1A23DCB2428A23 /* MPTypeDescription.h in Headers */,
+				32C89433C957FE729BBA84EBFDDE8C7D /* MPUICollectionViewBinding.h in Headers */,
+				FC93B79EBCC9D90E277B2CC5CC7F63C5 /* MPUIControlBinding.h in Headers */,
+				D9B1CE5FB1CDBFAFB3381DBC825E920D /* MPUITableViewBinding.h in Headers */,
+				73FB4914323F76DFB953AEEC4DBC8672 /* MPValueTransformers.h in Headers */,
+				A2811CF5200D31F5E1B12504104D4927 /* NSInvocation+MPHelpers.h in Headers */,
+				7152FF6C1A49822D54EDC841DD2E664F /* NSObject+ZACellClick.h in Headers */,
+				9D4AD3487254F814D7B0EF5ECCD5B657 /* NSObject+ZGResponseID.h in Headers */,
+				380F31005719C17A2519C4F989D9CC07 /* NSString+ZGMD5.h in Headers */,
+				80912A42E4C53A6B273DFB0BB4699F1C /* NSThread+Helpers.h in Headers */,
+				633B8970C17F10109914D75770CCA4A6 /* NSTimer+ZGWeakTimer.h in Headers */,
+				9E37FBCEC002A927B62227F2A04A761C /* RSA+AES.h in Headers */,
+				C7DD6D016F9F8ADE6F49CE260C335CF8 /* SelectorEvaluator.h in Headers */,
+				4B2F888409C8973B8B68A0A4B9EE365D /* SessionMetadata.h in Headers */,
+				FB301D89122D38F4D5127B155A1D77E1 /* ShakeGesture.h in Headers */,
+				1A31A4E7A62DAC06A4ACFC485D093D5F /* UIApplication+Zhuge.h in Headers */,
+				DA942EEAD83F72F58CF61E6DCF6C1BD3 /* UIColor+MPColor.h in Headers */,
+				4D386A28487243AAFC63EECAAAA05EE6 /* UIControl+ZGClick.h in Headers */,
+				5028CF43CA33513FA6C352AE8B5A1038 /* UIGestureRecognizer+Zhuge.h in Headers */,
+				D9E716B5EB8E5DB4A6BD61B23F583865 /* UIImage+MPAverageColor.h in Headers */,
+				265D520747D4372CBFDC990B7B2BF7EC /* UIImage+MPImageEffects.h in Headers */,
+				705E3543D0F4390C3873A84CACE3E03F /* UIImage+ZGDifference.h in Headers */,
+				94CBD1EAE1E39E5B395604B852B9580A /* UIScrollView+ZGAutoTrack.h in Headers */,
+				C0D6298E1B80BBF8E98AC97DF84459E5 /* UIView+MPHelpers.h in Headers */,
+				6CA34F42C874C5D47853C8357A42B1EC /* UIView+ZAExpView.h in Headers */,
+				E1D87A4D72DB63E42BFDE347B9A29621 /* UIView+ZGView.h in Headers */,
+				E74C45AFEA688DE396BDA2433F5136BD /* UIViewController+ZGAutoTrack.h in Headers */,
+				D553BF494E37BC2CB5DDC16190A34E46 /* UIWindow+ZGView.h in Headers */,
+				5A171FEEB0D0FCDBDE6FA3A2CD64D6F2 /* WKWebView+ZABridge.h in Headers */,
+				B4A715F1837D402B2CAE0C44098503CA /* ZAAutoTrackProperty.h in Headers */,
+				C2CCA53925169EA22CD4DDEFEE0312AC /* ZAClassHelper.h in Headers */,
+				E346ADB675C9BC227EC42490E407250C /* ZAConstants.h in Headers */,
+				106276CA23340A1460CAF17156E9192E /* ZAConstants+Private.h in Headers */,
+				98131A2DE2039C62994D1F70DB6A3B1E /* ZADelegateProxy.h in Headers */,
+				3EAEA55836318D4A95C40D364C922438 /* ZADeviceId.h in Headers */,
+				4B88D22DA20665074FEBDD406828E1B1 /* ZAMethodHelper.h in Headers */,
+				35A40E4192059E9FB550C701437D770C /* ZASwizzle.h in Headers */,
+				A953FE9DFD4FAF7F3636FF0A781CD66A /* ZAViews.h in Headers */,
+				0611A47273F0D06A12D7F480CFE5955D /* ZGAbstractABTestDesignerMessage.h in Headers */,
+				60A7246CA0D8194C85123D685F8BCB21 /* ZGABTestDesignerChangeRequestMessage.h in Headers */,
+				6927597D3063E1AFC7889AF589448B5B /* ZGABTestDesignerChangeResponseMessage.h in Headers */,
+				800299FD2E0BDF4E08A16CCB6A8F55F9 /* ZGABTestDesignerClearRequestMessage.h in Headers */,
+				CB2056D1DD41065DFAD74C5BF3C486EC /* ZGABTestDesignerClearResponseMessage.h in Headers */,
+				62D0B9DE9F6AD49CD1D03BC34E2A033E /* ZGABTestDesignerConnection.h in Headers */,
+				84F2FF48C8A8DE8F0FF4034B181E11B8 /* ZGABTestDesignerDeviceInfoRequestMessage.h in Headers */,
+				A010E324F8124E784AD0D92078638CE3 /* ZGABTestDesignerDeviceInfoResponseMessage.h in Headers */,
+				2C5DD9983FDCB7414765735F76C50BFE /* ZGABTestDesignerDisconnectMessage.h in Headers */,
+				5602426BAEB2B811C69D55BC6F1832D0 /* ZGABTestDesignerMessage.h in Headers */,
+				499663968FB0815B33EF2E7A9E6984F4 /* ZGABTestDesignerSnapshotRequestMessage.h in Headers */,
+				954F1D1F9270B9C75444EEE9C2103909 /* ZGCMMotionManager.h in Headers */,
+				3095D5C781951254863ABCAE21C290E1 /* ZGDeviceInfo.h in Headers */,
+				D1456C92552C4CBE216573F5E7D85DD6 /* ZGEventBinding.h in Headers */,
+				2794C6537ED17BB037C65E3B2F7B1A3B /* ZGHttpHelper.h in Headers */,
+				2F7CB8E2D341EDCB7F249B6D443C584F /* ZGIDFAUtil.h in Headers */,
+				EE9674EAE2E756FD077BAC401A681A42 /* ZGLog.h in Headers */,
+				0AABAF863A00BC2765358E8B1D074C5B /* ZGReachability.h in Headers */,
+				58DCFAA8A4E1241AEB037299FBD52FD4 /* ZGRequest.h in Headers */,
+				2EE6D273183A3298044E74FEB933F8E8 /* ZGRequestManager.h in Headers */,
+				E12CEE60A0211F46ED320845C596E379 /* ZGSharedDur.h in Headers */,
+				C698EBA88BC48572678C5F8A48A2F204 /* ZGSqliteManager.h in Headers */,
+				7DEBD798293936BAD316D5AAE40083C9 /* ZGUtil.h in Headers */,
+				ACB54B0982E54AD3260E20BA76B5FD55 /* ZGUtils.h in Headers */,
+				11772F68F4CFFE6D2402CFA03A81B5C0 /* ZGVariant.h in Headers */,
+				09CBFF7227D0DAA936E6A0A1AE209186 /* ZGVisualizationManager.h in Headers */,
+				0015562D5A907E165EF5A5C63117B5CE /* ZGVisualizationSocketMessage.h in Headers */,
+				819D64868F97CA7E0A98428E3B06EF18 /* ZGVisualizedTool.h in Headers */,
+				5D7DABCBDC14DE92848785F846C68AEE /* ZGWebSocket.h in Headers */,
+				416907253549A51B7977D0B25C18613B /* Zhuge.h in Headers */,
+				1C694E303977DBDE388414AA884D883D /* ZhugeAutoTrackUtils.h in Headers */,
+				519E122371F23171BB1963A92233F090 /* ZhugeBase64.h in Headers */,
+				A0321C39573F64883C42885CBB2EFBB2 /* ZhugeCompres.h in Headers */,
+				D76CA6AB7E7B17F7DFB72531FD63F415 /* ZhugeConfig.h in Headers */,
+				68D143B1D4A97A529EB0C6694960957E /* ZhugeConstants.h in Headers */,
+				CCF2D6F9CF1FD5B65105CB3245F8B158 /* ZhugeEventProperty.h in Headers */,
+				C26A90E4AB8EB39BC97BCB6937B12042 /* ZhugeHeaders.h in Headers */,
+				FCE19FEC95054DDDF51F15A41AA7EDB3 /* ZhugeioAnalytics-umbrella.h in Headers */,
+				61D4ABF682BDD72F004E94001A9712EC /* ZhugeJS.h in Headers */,
+				812B5B879C1D7E5F551B00525E32C8B8 /* ZhugePrivates.h in Headers */,
+				841F9E5BBF0619BA8FEA48898D0BB861 /* ZhugeSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81F7F12E99F6C60B59338242B49A67BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A713896CC1976EF3347472E484106D /* Pods-dailyDetail-dailyDetailUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2C28B5B1E89F736B18C6004C0F833D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE3BA38F83DFE976B6CF8CEA120772A4 /* Pods-dailyDetail-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1933EE7D42EC77AC0E71309F582D8D52 /* Pods-dailyDetailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73B502614765FACF60E797A435B1677B /* Build configuration list for PBXNativeTarget "Pods-dailyDetailTests" */;
+			buildPhases = (
+				37F050E1724A477677B9FF5E75CE25F0 /* Headers */,
+				FFF9F256ADFC51BC327311CBB7043192 /* Sources */,
+				58D4A5FEC09DC85890351275F5E34C48 /* Frameworks */,
+				22B66A9A08395AC8C0866C2D6AD4BC99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39C89E9CAD55AD41ECA9F3BE7BF2A0D /* PBXTargetDependency */,
+			);
+			name = "Pods-dailyDetailTests";
+			productName = Pods_dailyDetailTests;
+			productReference = 817E0C9BF84CBE65D75341753AC52F71 /* Pods_dailyDetailTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		61FA4817C4C3EE5DABE280D2D69CF5D6 /* SensorsAnalyticsSDK-SensorsAnalyticsSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDEA1A2CC5C4DF0A2CD0AEDE0220CB48 /* Build configuration list for PBXNativeTarget "SensorsAnalyticsSDK-SensorsAnalyticsSDK" */;
+			buildPhases = (
+				E1610A07CD34AC43B1CEAF94914152A8 /* Sources */,
+				F3939021890D3EFA367A00190A7B5C9A /* Frameworks */,
+				A610A63FF6AFF624C00EFDC5EF0DD31D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SensorsAnalyticsSDK-SensorsAnalyticsSDK";
+			productName = SensorsAnalyticsSDK;
+			productReference = B09F53F95004416CAB25932C1D3E04FB /* SensorsAnalyticsSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7249D5077341D52717D84A1A24958AAC /* ZhugeioAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5921A4E7E0028624C45258265BE0249 /* Build configuration list for PBXNativeTarget "ZhugeioAnalytics" */;
+			buildPhases = (
+				51ACA869C21EC37BF9648615DA75D8A1 /* Headers */,
+				CBD623A34930A65DF9596C5AD744C92A /* Sources */,
+				E97340474665281340FF4C4EABB9BB81 /* Frameworks */,
+				E49EC744623149CF5F4D3F6CFC205EA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZhugeioAnalytics;
+			productName = ZhugeioAnalytics;
+			productReference = B66687ECED220C80165D1ED191488062 /* ZhugeioAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93CB38B0B6CAA0DFC562DA183B2C2182 /* Pods-dailyDetail-dailyDetailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91387EF84B7D666CCD87884DCB3C3C5B /* Build configuration list for PBXNativeTarget "Pods-dailyDetail-dailyDetailUITests" */;
+			buildPhases = (
+				81F7F12E99F6C60B59338242B49A67BD /* Headers */,
+				0785815D30089D70693D07C640B5D097 /* Sources */,
+				A4C5635C5EE174B74E74AC3F6EE9AA96 /* Frameworks */,
+				9993890E09BD8B2C56BD6268BAAC8ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E946FAD1E0DEAEB6992FD53FE7A094 /* PBXTargetDependency */,
+				1CADDDEBE07AAE4FCC52F589438F66B7 /* PBXTargetDependency */,
+				610C29C3DFBF9EBF8C21C1F2E8EE95C5 /* PBXTargetDependency */,
+			);
+			name = "Pods-dailyDetail-dailyDetailUITests";
+			productName = Pods_dailyDetail_dailyDetailUITests;
+			productReference = C0F42A8E7F9DB4671E34C84FBD08D5AB /* Pods_dailyDetail_dailyDetailUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C1B7E9FCC674E977BE2D38FC2709798C /* AppsFlyerFramework-AppsFlyerLib_Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CE3A1216E8B64F10C70C803F7555EE5 /* Build configuration list for PBXNativeTarget "AppsFlyerFramework-AppsFlyerLib_Privacy" */;
+			buildPhases = (
+				BA614429327DFF3F1ABC35DF7328A580 /* Sources */,
+				6786BC9468BC2848FCB8A2A43872680C /* Frameworks */,
+				C0CAB1CE7C7DB36E803F571D4C62C58B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppsFlyerFramework-AppsFlyerLib_Privacy";
+			productName = AppsFlyerLib_Privacy;
+			productReference = DDEAD447247DFA15F1E4DB584614F80C /* AppsFlyerLib_Privacy.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D14EEF9F1839F8F1CE5D55C0A1221560 /* Pods-dailyDetail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAE19F886C318B858E41B0F7F97E6BF /* Build configuration list for PBXNativeTarget "Pods-dailyDetail" */;
+			buildPhases = (
+				8E2C28B5B1E89F736B18C6004C0F833D /* Headers */,
+				C768D1BB5AD2D34411434204F3AB6F55 /* Sources */,
+				A18B82797E4E91B7A8682DC769EEFF73 /* Frameworks */,
+				1024EEA89BFFB4B59FA21B9BE83DA776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5666524BA838BBEAAE1BB3C913C6F787 /* PBXTargetDependency */,
+				A14FF39E27C1071892D88C5DF6ED38B0 /* PBXTargetDependency */,
+				B1B8AAF137B9B95DB386FFD1707EABB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-dailyDetail";
+			productName = Pods_dailyDetail;
+			productReference = EBE5F128E717CEC63893D8BA24D9FE5E /* Pods_dailyDetail.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0F97D2087A7371E1ED250F2E4163ADE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */,
+				C1B7E9FCC674E977BE2D38FC2709798C /* AppsFlyerFramework-AppsFlyerLib_Privacy */,
+				D14EEF9F1839F8F1CE5D55C0A1221560 /* Pods-dailyDetail */,
+				93CB38B0B6CAA0DFC562DA183B2C2182 /* Pods-dailyDetail-dailyDetailUITests */,
+				1933EE7D42EC77AC0E71309F582D8D52 /* Pods-dailyDetailTests */,
+				89C207232F1DD5784BF33C140E6B05B3 /* SensorsAnalyticsSDK */,
+				61FA4817C4C3EE5DABE280D2D69CF5D6 /* SensorsAnalyticsSDK-SensorsAnalyticsSDK */,
+				7249D5077341D52717D84A1A24958AAC /* ZhugeioAnalytics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1024EEA89BFFB4B59FA21B9BE83DA776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B66A9A08395AC8C0866C2D6AD4BC99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9993890E09BD8B2C56BD6268BAAC8ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A610A63FF6AFF624C00EFDC5EF0DD31D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9976657F35867B235CC3503B9FC651 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0CAB1CE7C7DB36E803F571D4C62C58B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39BF425675EEDB7EBA093F8D59866FBE /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49EC744623149CF5F4D3F6CFC205EA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		692F3A52961A3C0D124EAB701967DDF8 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SensorsAnalyticsSDK/SensorsAnalyticsSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SensorsAnalyticsSDK/SensorsAnalyticsSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SensorsAnalyticsSDK/SensorsAnalyticsSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB7C100E6D7A5CF954757DB8962D9B72 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/AppsFlyerFramework/AppsFlyerFramework-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0785815D30089D70693D07C640B5D097 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA6B9A30D9DB426EB31159D4B73BB2E /* Pods-dailyDetail-dailyDetailUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA614429327DFF3F1ABC35DF7328A580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C768D1BB5AD2D34411434204F3AB6F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD060EF8884F685B7B4B3CBC95121FD /* Pods-dailyDetail-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD623A34930A65DF9596C5AD744C92A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D98BFF6FB00025D6404A2775A2B384D /* _MPTweakBindObserver.m in Sources */,
+				E7F67032C96ADC6713AE020C0E2346ED /* MPABTestDesignerSnapshotResponseMessage.m in Sources */,
+				6D7946FBDA604E23A29BD743BA53EE72 /* MPABTestDesignerTweakRequestMessage.m in Sources */,
+				FC9A4AE42542A28754E1F8115E870939 /* MPABTestDesignerTweakResponseMessage.m in Sources */,
+				18387068B2C29B389E402C5842634D2B /* MPApplicationStateSerializer.m in Sources */,
+				89D5CEEF54C6AB03B2494B7DA8AFF89A /* MPBOOLToNSNumberValueTransformer.m in Sources */,
+				81916CD5D7A0C7715083C396C8A16A3D /* MPCATransform3DToNSDictionaryValueTransformer.m in Sources */,
+				498814222D17AC1EFD8155FBA686B905 /* MPCGAffineTransformToNSDictionaryValueTransformer.m in Sources */,
+				760016FCAF8CA234288C2FF9E12190E7 /* MPCGColorRefToNSStringValueTransformer.m in Sources */,
+				A052A631DF5C5A4667057F595EB4CD7B /* MPCGPointToNSDictionaryValueTransformer.m in Sources */,
+				0D85DCD7B25D7E661A819B85B32BD95A /* MPCGRectToNSDictionaryValueTransformer.m in Sources */,
+				4774CCD28F4D654E364F9A43BF63846C /* MPCGSizeToNSDictionaryValueTransformer.m in Sources */,
+				CB1D945443F4B24936B55DC7F93B12F4 /* MPClassDescription.m in Sources */,
+				2D0AD9AE14706778544BC0227A60D8AC /* MPDesignerEventBindingRequestMesssage.m in Sources */,
+				52361483FE1BFCBC0949A2C28BBD9EF3 /* MPDesignerEventBindingResponseMesssage.m in Sources */,
+				BDB27A54E6EAD7A6312F7F51A00002DA /* MPDesignerTrackMessage.m in Sources */,
+				9B251241D1B71A6D9BEC7622E5624963 /* MPDisplayTrigger.m in Sources */,
+				10C38F933AD753A38F59F0FBE79E49E7 /* MPEnumDescription.m in Sources */,
+				36795149E5B76DA1A22767F82349D50C /* MPNSAttributedStringToNSDictionaryValueTransformer.m in Sources */,
+				AA3770FA8D553414488A8D8BE3A62D93 /* MPNSNumberToCGFloatValueTransformer.m in Sources */,
+				C18F2EFD6804DC36D07548784C675BEF /* MPObjectIdentityProvider.m in Sources */,
+				DEFF4C519FA786F13E4E9E0B90EA1E2A /* MPObjectSelector.m in Sources */,
+				70CA8C097D0FF61C123F82F25247EAC0 /* MPObjectSerializer.m in Sources */,
+				661278B68A0A81B915394AE11FE0419F /* MPObjectSerializerConfig.m in Sources */,
+				B4264E4F5AA63D941B9CBB7CEE24C701 /* MPObjectSerializerContext.m in Sources */,
+				8968D070E114E39A94B324231BC857D9 /* MPPassThroughValueTransformer.m in Sources */,
+				7FED46071C3E93F46AC5C2F1CAEBE0B0 /* MPPropertyDescription.m in Sources */,
+				8B71F38545A9718C4334742420E96144 /* MPSequenceGenerator.m in Sources */,
+				DF3C14FB4EE4D1A16A8BEADCF075CBAB /* MPSwizzle.m in Sources */,
+				4D636DA749C8AEE4F137E05B3771CB03 /* MPSwizzler.m in Sources */,
+				B2DD8AA2EA3FDAC2EC39261FFA78903E /* MPTweak.m in Sources */,
+				0F9CA555AAA4B33870F32BF783B39011 /* MPTweakInline.m in Sources */,
+				45904F491B520F362922E735662C7F6A /* MPTweakStore.m in Sources */,
+				02266E5EC96BB426BB970EE70B1EDA04 /* MPTypeDescription.m in Sources */,
+				387866F1DBD386AFD2FA0A87322EEB2A /* MPUICollectionViewBinding.m in Sources */,
+				3E0D7B56F350F210EF2CAF75B0B27E61 /* MPUIColorToNSStringValueTransformer.m in Sources */,
+				A22503EAE94FA9E12159A42F2EEDB754 /* MPUIControlBinding.m in Sources */,
+				0553AB3851AB1D47B973848AAE671275 /* MPUIEdgeInsetsToNSDictionaryValueTransformer.m in Sources */,
+				9B7B53CDF276CC3C0AFC6E421218410B /* MPUIFontToNSDictionaryValueTransformer.m in Sources */,
+				0FA335D06D7FF63F0CE7CCB8077847AC /* MPUIImageToNSDictionaryValueTransformer.m in Sources */,
+				8782B040ECEF0E736B1C27B1C77E761D /* MPUITableViewBinding.m in Sources */,
+				0F32179D7CE0D8BCDF1950EDACE750A9 /* NSInvocation+MPHelpers.m in Sources */,
+				B417BBBD619BFE3EF79A6552E90B6193 /* NSObject+ZACellClick.m in Sources */,
+				05EBEB85543856624596608C24CB93D7 /* NSObject+ZGResponseID.m in Sources */,
+				F7A39BB788ED3DA1D3FA68D1DB5987ED /* NSString+ZGMD5.m in Sources */,
+				923A1FD797AF1CA844DB40B83E36B0A1 /* NSThread+Helpers.m in Sources */,
+				A5CE4CD17D5DFEB4D7A18B18C6099FB3 /* NSTimer+ZGWeakTimer.m in Sources */,
+				DF7C637DE25679F9BF7191BEF467C29D /* RSA+AES.m in Sources */,
+				C2F05FF9B06EA1A814ECAC395D164AD7 /* SelectorEvaluator.m in Sources */,
+				86CA13065911C79780ED1FD7F2A963AD /* SessionMetadata.m in Sources */,
+				F91E7AD5C369E2CB1F77CF7A3884ECDF /* ShakeGesture.m in Sources */,
+				B1D4899424A570541A2984090C8763BE /* UIApplication+Zhuge.m in Sources */,
+				152ED71D5BA4A024FA48C5D6906CB828 /* UIColor+MPColor.m in Sources */,
+				2975EE48A3354FB7B85888765CADDA23 /* UIControl+ZGClick.m in Sources */,
+				8E553B8E29DADC4C65E367A4617A7969 /* UIGestureRecognizer+Zhuge.m in Sources */,
+				4D70050A834B9B1A688CBFAC1829CF17 /* UIImage+MPAverageColor.m in Sources */,
+				35BB416E1D78FAA7E4A004A986070808 /* UIImage+MPImageEffects.m in Sources */,
+				D8DC36C0FA6952C120429E11DDE925C7 /* UIImage+ZGDifference.m in Sources */,
+				F5EE446DD47223C1BC3992AF1B1CE4A6 /* UIScrollView+ZGAutoTrack.m in Sources */,
+				A582EE9D17042867CEB92485E3FE388E /* UIView+MPHelpers.m in Sources */,
+				0D593B6A9890947148DDC45AFA2AF912 /* UIView+ZAExpView.m in Sources */,
+				1E088627707265860E9B5659D8FF6713 /* UIView+ZGView.m in Sources */,
+				87D39E3FAFD8B07BAAAD4F351C49F4D6 /* UIViewController+ZGAutoTrack.m in Sources */,
+				D1D0E7571E22030BBA3E14530EFEAFA3 /* UIWindow+ZGView.m in Sources */,
+				D773E0ABA1DD140A768D5CBE1E8B2520 /* WKWebView+ZABridge.m in Sources */,
+				86B8BDA8532FD4F38481D0914B84E1DA /* ZAClassHelper.m in Sources */,
+				8B4F425B6B240CEE72D1D734CF2F4F39 /* ZAConstants.m in Sources */,
+				3CD07C8CC77070DBC060F8DFE28960E0 /* ZADelegateProxy.m in Sources */,
+				D6FE5951541CB87A36A438D5A7D20BEF /* ZADeviceId.m in Sources */,
+				5A3A189A3D7AB5F96F9A85D05E02967E /* ZAMethodHelper.m in Sources */,
+				41D19E320A9A64E9D07BAC4449BD2D67 /* ZASwizzle.m in Sources */,
+				3B645B9C61C9BDD25EC573FD88CF3CDE /* ZAViews.m in Sources */,
+				C7AAEDF54E02F24E2B0309AEC78FEF19 /* ZGAbstractABTestDesignerMessage.m in Sources */,
+				D10A193ED8520C3F9F0BFA0F358FACF0 /* ZGABTestDesignerChangeRequestMessage.m in Sources */,
+				154B306354EE57F7FF5366670B74E3EA /* ZGABTestDesignerChangeResponseMessage.m in Sources */,
+				132C5FC67420D41822F2AF2C2E71509B /* ZGABTestDesignerClearRequestMessage.m in Sources */,
+				A451C2D7C4A0966ACFE26E5BD718264A /* ZGABTestDesignerClearResponseMessage.m in Sources */,
+				4BBBF29C8B18905550E63CBD7E38CF95 /* ZGABTestDesignerConnection.m in Sources */,
+				871813F4251DB203AE22AB80A86EBE1E /* ZGABTestDesignerDeviceInfoRequestMessage.m in Sources */,
+				81096355EBF0E74D0CAA32C6DE8B6B66 /* ZGABTestDesignerDeviceInfoResponseMessage.m in Sources */,
+				940C618D53AFF3A066F2CBE6A20B677A /* ZGABTestDesignerDisconnectMessage.m in Sources */,
+				245FE35E00C40BDEA36B0F730B3F6FD5 /* ZGABTestDesignerSnapshotRequestMessage.m in Sources */,
+				987CFBBC80F3F34526B8C5DDF321D277 /* ZGCMMotionManager.m in Sources */,
+				1BEA9977B2C592E252845727798ED97B /* ZGDeviceInfo.m in Sources */,
+				8410FCCC72F02DA4192C61C5E2DAA180 /* ZGEventBinding.m in Sources */,
+				B94A032594B586FE689FE077A1B61EC1 /* ZGHttpHelper.m in Sources */,
+				5C092A14FBE06A1BC54E00D4C9FFE87F /* ZGIDFAUtil.m in Sources */,
+				3BD4A0C0AB608626C9B9615E05852B60 /* ZGReachability.m in Sources */,
+				EF5C48A4783131CDC973E4DF22558E73 /* ZGRequest.m in Sources */,
+				7D9D2FD8CF581566F6A8B8C2AFE63391 /* ZGRequestManager.m in Sources */,
+				87C55810486585B44922E0D5FAD199F0 /* ZGSharedDur.m in Sources */,
+				D0938294227BD73CDB9030779BB9BCAA /* ZGSqliteManager.m in Sources */,
+				E0777958EE5250C999129A13FCFBE532 /* ZGUtil.m in Sources */,
+				57B3D6B316177E0EDC15B112309DAA57 /* ZGUtils.m in Sources */,
+				ED7E96DC14B9A80AB3B3323D7649210E /* ZGVariant.m in Sources */,
+				555439756F4F0D686D4668E93A3298F3 /* ZGVisualizationManager.m in Sources */,
+				1A8EDBE3D2CFB484A48FD4A4E95D3976 /* ZGVisualizationSocketMessage.m in Sources */,
+				090BDAC14A4FD5C045EA393A35DBA95F /* ZGVisualizedTool.m in Sources */,
+				DD3BBBF19856C54A637ACABA5EACDA1D /* ZGWebSocket.m in Sources */,
+				534FB0F8BDB0C8E856E7FAEE7F18D137 /* Zhuge.m in Sources */,
+				8EB0771E0AD06D14005ACFAD7AA6B8F6 /* ZhugeAutoTrackUtils.m in Sources */,
+				0BE2D860D2C203F5C23854AEBABA85F2 /* ZhugeBase64.m in Sources */,
+				B48B7B8790DC8261060966D829DBB9EE /* ZhugeCompres.m in Sources */,
+				A4B18B150A72293D2BEF2FF097521CF6 /* ZhugeConfig.m in Sources */,
+				4C1EAD0F773FA74661EE42D8B66EC86E /* ZhugeioAnalytics-dummy.m in Sources */,
+				3DE4DCB0EFECA3FF031952279F5D230D /* ZhugeJS.m in Sources */,
+				8366D4785A15A3B9F98A2F38F7DCDD62 /* ZhugeSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1610A07CD34AC43B1CEAF94914152A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFF9F256ADFC51BC327311CBB7043192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A8CFC2C5394957F4FE1B35161010F8B /* Pods-dailyDetailTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		081285D27667E5056E922B7B5F99A343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AppsFlyerFramework-AppsFlyerLib_Privacy";
+			target = C1B7E9FCC674E977BE2D38FC2709798C /* AppsFlyerFramework-AppsFlyerLib_Privacy */;
+			targetProxy = E04DC2A922388381C88B00EB65335DD9 /* PBXContainerItemProxy */;
+		};
+		1CADDDEBE07AAE4FCC52F589438F66B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SensorsAnalyticsSDK;
+			target = 89C207232F1DD5784BF33C140E6B05B3 /* SensorsAnalyticsSDK */;
+			targetProxy = 6C6E14E93E71754B5160491A2C6941C6 /* PBXContainerItemProxy */;
+		};
+		5666524BA838BBEAAE1BB3C913C6F787 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppsFlyerFramework;
+			target = B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */;
+			targetProxy = F25F6D7B8EF29369C2E702EF1B20141E /* PBXContainerItemProxy */;
+		};
+		610C29C3DFBF9EBF8C21C1F2E8EE95C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZhugeioAnalytics;
+			target = 7249D5077341D52717D84A1A24958AAC /* ZhugeioAnalytics */;
+			targetProxy = 55904C114130BB85544562B2B670ED9B /* PBXContainerItemProxy */;
+		};
+		94E946FAD1E0DEAEB6992FD53FE7A094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppsFlyerFramework;
+			target = B0B23938B1EBCBAD2419AB6E9D222A0B /* AppsFlyerFramework */;
+			targetProxy = EBD69D83708D9A3D9EDF8E2B5B01EC6B /* PBXContainerItemProxy */;
+		};
+		9F3842E2B5EE6C51250CB0A231362A8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SensorsAnalyticsSDK-SensorsAnalyticsSDK";
+			target = 61FA4817C4C3EE5DABE280D2D69CF5D6 /* SensorsAnalyticsSDK-SensorsAnalyticsSDK */;
+			targetProxy = 06363D108145AA8EA58EA9B372C55544 /* PBXContainerItemProxy */;
+		};
+		A14FF39E27C1071892D88C5DF6ED38B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SensorsAnalyticsSDK;
+			target = 89C207232F1DD5784BF33C140E6B05B3 /* SensorsAnalyticsSDK */;
+			targetProxy = 302C7C014C0092D67E271A3C0151BB94 /* PBXContainerItemProxy */;
+		};
+		B1B8AAF137B9B95DB386FFD1707EABB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZhugeioAnalytics;
+			target = 7249D5077341D52717D84A1A24958AAC /* ZhugeioAnalytics */;
+			targetProxy = 6A1C729DF502E5D654D6DB6BECDE416F /* PBXContainerItemProxy */;
+		};
+		F39C89E9CAD55AD41ECA9F3BE7BF2A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-dailyDetail";
+			target = D14EEF9F1839F8F1CE5D55C0A1221560 /* Pods-dailyDetail */;
+			targetProxy = F9ACB9713494187A55661FF89499D90A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0915DD6C6FDB53B39FB5AC24701D50F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5BDBDEB7866737D22031E88379FF8C /* Pods-dailyDetail-dailyDetailUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		35640B6F93CCB4574A600D235F0DDD40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121A85F7AD237BF8E1F17FFF8368A952 /* Pods-dailyDetail-dailyDetailUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4A23F1203421E4CF6B79B43E8332B863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DC67072452733FAC36FBFA4AB47EAA /* AppsFlyerFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		660CA603C67D14DAB3BE55D0D50C8162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B5233C2A500F1B8FC25F7A7FA0A4149 /* ZhugeioAnalytics.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZhugeioAnalytics/ZhugeioAnalytics-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZhugeioAnalytics/ZhugeioAnalytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZhugeioAnalytics/ZhugeioAnalytics.modulemap";
+				PRODUCT_MODULE_NAME = ZhugeioAnalytics;
+				PRODUCT_NAME = ZhugeioAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D38AE975D24743C9A20CD6372B81CA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BD830B59A3296491212916A4E0947CA /* Pods-dailyDetailTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dailyDetailTests/Pods-dailyDetailTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dailyDetailTests/Pods-dailyDetailTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F4225877C794ABEB78776F47754104E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		76EE26B8AA3100A5694A77681BDF45C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0003B2E5196450E2FE72D22414410A /* SensorsAnalyticsSDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SensorsAnalyticsSDK";
+				IBSC_MODULE = SensorsAnalyticsSDK;
+				INFOPLIST_FILE = "Target Support Files/SensorsAnalyticsSDK/ResourceBundle-SensorsAnalyticsSDK-SensorsAnalyticsSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SensorsAnalyticsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		99A6E2A2C1D500617DAAC7110C82BDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E942594801C74F2BD6D804F3EBBC1ED /* AppsFlyerFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADDC06CDAE4743BAFF9394BCB107A201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D72DD090C405F37FC3EE580851BF253 /* SensorsAnalyticsSDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SensorsAnalyticsSDK";
+				IBSC_MODULE = SensorsAnalyticsSDK;
+				INFOPLIST_FILE = "Target Support Files/SensorsAnalyticsSDK/ResourceBundle-SensorsAnalyticsSDK-SensorsAnalyticsSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = SensorsAnalyticsSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		BC7522385B4F9B3FE00CA3A4D5E12516 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E942594801C74F2BD6D804F3EBBC1ED /* AppsFlyerFramework.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppsFlyerFramework";
+				IBSC_MODULE = AppsFlyerFramework;
+				INFOPLIST_FILE = "Target Support Files/AppsFlyerFramework/ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AppsFlyerLib_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CBAC121D8144BF6FF05FFFE975D2AD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0003B2E5196450E2FE72D22414410A /* SensorsAnalyticsSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFB020918245C5E5497010F6B3B6D165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6378CE742DAE5BF51AAC4BCEAA1E0748 /* Pods-dailyDetailTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dailyDetailTests/Pods-dailyDetailTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dailyDetailTests/Pods-dailyDetailTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D24379DA244CFD4F702DEFCC60D16ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70F6843912153EBDD81CA862F9182E1 /* ZhugeioAnalytics.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/ZhugeioAnalytics/ZhugeioAnalytics-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/ZhugeioAnalytics/ZhugeioAnalytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZhugeioAnalytics/ZhugeioAnalytics.modulemap";
+				PRODUCT_MODULE_NAME = ZhugeioAnalytics;
+				PRODUCT_NAME = ZhugeioAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCFE48FDA400B456916836408EC201F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D72DD090C405F37FC3EE580851BF253 /* SensorsAnalyticsSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD339602760E9252FDC5C6E2A0EFCCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F98C2D975F927513363DC9DE3887790 /* Pods-dailyDetail.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dailyDetail/Pods-dailyDetail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dailyDetail/Pods-dailyDetail.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8C355D39BD0BE60F47AC09E9461CFDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87DC67072452733FAC36FBFA4AB47EAA /* AppsFlyerFramework.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/AppsFlyerFramework";
+				IBSC_MODULE = AppsFlyerFramework;
+				INFOPLIST_FILE = "Target Support Files/AppsFlyerFramework/ResourceBundle-AppsFlyerLib_Privacy-AppsFlyerFramework-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = AppsFlyerLib_Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F969EDDCB817B8E33590852CA273532E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55521BEB32F40CCE9C3847E61E040CC1 /* Pods-dailyDetail.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-dailyDetail/Pods-dailyDetail-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dailyDetail/Pods-dailyDetail.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CE3A1216E8B64F10C70C803F7555EE5 /* Build configuration list for PBXNativeTarget "AppsFlyerFramework-AppsFlyerLib_Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7522385B4F9B3FE00CA3A4D5E12516 /* Debug */,
+				F8C355D39BD0BE60F47AC09E9461CFDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119D25BC8590F02A997CE3B28DA2EFA5 /* Debug */,
+				6F4225877C794ABEB78776F47754104E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B9A5BD1FADAE479D403809E582EC07 /* Build configuration list for PBXAggregateTarget "AppsFlyerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A6E2A2C1D500617DAAC7110C82BDEE /* Debug */,
+				4A23F1203421E4CF6B79B43E8332B863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73B502614765FACF60E797A435B1677B /* Build configuration list for PBXNativeTarget "Pods-dailyDetailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB020918245C5E5497010F6B3B6D165 /* Debug */,
+				6D38AE975D24743C9A20CD6372B81CA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		894C51FA5CC2097CF51F537E0DE262D2 /* Build configuration list for PBXAggregateTarget "SensorsAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAC121D8144BF6FF05FFFE975D2AD10 /* Debug */,
+				DCFE48FDA400B456916836408EC201F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91387EF84B7D666CCD87884DCB3C3C5B /* Build configuration list for PBXNativeTarget "Pods-dailyDetail-dailyDetailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0915DD6C6FDB53B39FB5AC24701D50F7 /* Debug */,
+				35640B6F93CCB4574A600D235F0DDD40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAE19F886C318B858E41B0F7F97E6BF /* Build configuration list for PBXNativeTarget "Pods-dailyDetail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F969EDDCB817B8E33590852CA273532E /* Debug */,
+				DD339602760E9252FDC5C6E2A0EFCCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDEA1A2CC5C4DF0A2CD0AEDE0220CB48 /* Build configuration list for PBXNativeTarget "SensorsAnalyticsSDK-SensorsAnalyticsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76EE26B8AA3100A5694A77681BDF45C0 /* Debug */,
+				ADDC06CDAE4743BAFF9394BCB107A201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5921A4E7E0028624C45258265BE0249 /* Build configuration list for PBXNativeTarget "ZhugeioAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				660CA603C67D14DAB3BE55D0D50C8162 /* Debug */,
+				D24379DA244CFD4F702DEFCC60D16ECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

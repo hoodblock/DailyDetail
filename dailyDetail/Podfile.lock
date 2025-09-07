@@ -1,0 +1,28 @@
+PODS:
+  - AppsFlyerFramework (6.17.5):
+    - AppsFlyerFramework/Main (= 6.17.5)
+  - AppsFlyerFramework/Main (6.17.5)
+  - SensorsAnalyticsSDK (5.0.4):
+    - SensorsAnalyticsSDK/Core (= 5.0.4)
+  - SensorsAnalyticsSDK/Core (5.0.4)
+  - ZhugeioAnalytics (3.7.6)
+
+DEPENDENCIES:
+  - AppsFlyerFramework
+  - SensorsAnalyticsSDK
+  - ZhugeioAnalytics
+
+SPEC REPOS:
+  trunk:
+    - AppsFlyerFramework
+    - SensorsAnalyticsSDK
+    - ZhugeioAnalytics
+
+SPEC CHECKSUMS:
+  AppsFlyerFramework: da52a40c07c9f81a7829952e0fd854b6eacf5a7d
+  SensorsAnalyticsSDK: aeca2a28098170d1f7d23e06c7d1850e94a91c98
+  ZhugeioAnalytics: 0d7f328c099ca81fca029bc12f9f7186f712dd3a
+
+PODFILE CHECKSUM: 53483273fb1f511d0dcd079ddac27e40b4adcf6a
+
+COCOAPODS: 1.16.2

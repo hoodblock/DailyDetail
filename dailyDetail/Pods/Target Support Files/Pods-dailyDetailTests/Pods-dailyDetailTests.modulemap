@@ -1,0 +1,6 @@
+framework module Pods_dailyDetailTests {
+  umbrella header "Pods-dailyDetailTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
