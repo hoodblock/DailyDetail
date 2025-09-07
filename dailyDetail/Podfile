@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'dailyDetail' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for dailyDetail
+
+	pod 'SensorsAnalyticsSDK'
+
+	pod 'ZhugeioAnalytics'
+	pod 'AppsFlyerFramework'
+
+
+  target 'dailyDetailTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'dailyDetailUITests' do
+    # Pods for testing
+  end
+
+end

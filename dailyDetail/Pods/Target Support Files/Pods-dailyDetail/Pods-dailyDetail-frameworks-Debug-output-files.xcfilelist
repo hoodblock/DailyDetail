@@ -1,0 +1,2 @@
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZhugeioAnalytics.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SensorsAnalyticsSDK.framework

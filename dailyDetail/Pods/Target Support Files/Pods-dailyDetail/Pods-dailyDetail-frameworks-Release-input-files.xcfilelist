@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-dailyDetail/Pods-dailyDetail-frameworks.sh
+${BUILT_PRODUCTS_DIR}/ZhugeioAnalytics/ZhugeioAnalytics.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/SensorsAnalyticsSDK/Core/SensorsAnalyticsSDK.framework/SensorsAnalyticsSDK
