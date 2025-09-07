@@ -1,6 +1,0 @@
-framework module Pods_dailyDetail {
-  umbrella header "Pods-dailyDetail-umbrella.h"
-
-  export *
-  module * { export * }
-}
