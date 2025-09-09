@@ -1,8 +1,9 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZhugeioAnalytics" "${PODS_ROOT}/AppsFlyerFramework/binaries/xcframework/full" "${PODS_ROOT}/SensorsAnalyticsSDK/SensorsAnalyticsSDK/Source/Core" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main" "${PODS_XCFRAMEWORKS_BUILD_DIR}/SensorsAnalyticsSDK/Core"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa" "${PODS_CONFIGURATION_BUILD_DIR}/RxRelay" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit" "${PODS_CONFIGURATION_BUILD_DIR}/ZhugeioAnalytics" "${PODS_ROOT}/AppsFlyerFramework/binaries/xcframework/full" "${PODS_ROOT}/SensorsAnalyticsSDK/SensorsAnalyticsSDK/Source/Core" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppsFlyerFramework/Main" "${PODS_XCFRAMEWORKS_BUILD_DIR}/SensorsAnalyticsSDK/Core"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/ZhugeioAnalytics/ZhugeioAnalytics.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -l"icucore" -l"z" -framework "CoreTelephony" -framework "Foundation" -framework "Security" -framework "SensorsAnalyticsSDK" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -framework "ZhugeioAnalytics"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa/RxCocoa.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RxRelay/RxRelay.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/RxSwift/RxSwift.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ZhugeioAnalytics/ZhugeioAnalytics.framework/Headers"
+LIBRARY_SEARCH_PATHS = $(inherited) $(SDKROOT)/usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -l"icucore" -l"swiftCoreGraphics" -l"z" -framework "CoreTelephony" -framework "Foundation" -framework "RxCocoa" -framework "RxRelay" -framework "RxSwift" -framework "Security" -framework "SensorsAnalyticsSDK" -framework "SnapKit" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -framework "ZhugeioAnalytics"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

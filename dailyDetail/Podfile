@@ -12,7 +12,9 @@ target 'dailyDetail' do
 	pod 'ZhugeioAnalytics'
 	pod 'AppsFlyerFramework'
 
-
+  pod 'SnapKit'
+  pod 'RxCocoa'
+  pod 'RxSwift'
   target 'dailyDetailTests' do
     inherit! :search_paths
     # Pods for testing

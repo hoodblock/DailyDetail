@@ -2,27 +2,45 @@ PODS:
   - AppsFlyerFramework (6.17.5):
     - AppsFlyerFramework/Main (= 6.17.5)
   - AppsFlyerFramework/Main (6.17.5)
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
   - SensorsAnalyticsSDK (5.0.4):
     - SensorsAnalyticsSDK/Core (= 5.0.4)
   - SensorsAnalyticsSDK/Core (5.0.4)
+  - SnapKit (5.7.1)
   - ZhugeioAnalytics (3.7.6)
 
 DEPENDENCIES:
   - AppsFlyerFramework
+  - RxCocoa
+  - RxSwift
   - SensorsAnalyticsSDK
+  - SnapKit
   - ZhugeioAnalytics
 
 SPEC REPOS:
   trunk:
     - AppsFlyerFramework
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SensorsAnalyticsSDK
+    - SnapKit
     - ZhugeioAnalytics
 
 SPEC CHECKSUMS:
   AppsFlyerFramework: da52a40c07c9f81a7829952e0fd854b6eacf5a7d
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
   SensorsAnalyticsSDK: aeca2a28098170d1f7d23e06c7d1850e94a91c98
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   ZhugeioAnalytics: 0d7f328c099ca81fca029bc12f9f7186f712dd3a
 
-PODFILE CHECKSUM: 53483273fb1f511d0dcd079ddac27e40b4adcf6a
+PODFILE CHECKSUM: 8cbfde59438972b7a5c3a95a72641121b3ee6ecd
 
 COCOAPODS: 1.16.2
