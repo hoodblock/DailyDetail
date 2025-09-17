@@ -25,7 +25,9 @@
 		392162D42E6DB6FE00035F63 /* SensorsEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162D32E6DB6FE00035F63 /* SensorsEvents.swift */; };
 		392162D62E6DB71300035F63 /* AppsFlyerEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162D52E6DB71300035F63 /* AppsFlyerEvents.swift */; };
 		392162D82E6DB72B00035F63 /* ZhugeEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162D72E6DB72B00035F63 /* ZhugeEvents.swift */; };
+		396CD6342E7B127100DCFD53 /* ImageSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396CD6332E7B127100DCFD53 /* ImageSelectedViewController.swift */; };
 		3976592C2E6DDD0F001171BC /* AnalyticsTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3976592B2E6DDD0F001171BC /* AnalyticsTimer.swift */; };
+		3976592E2E731C98001171BC /* pointDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3976592D2E731C98001171BC /* pointDetailViewController.swift */; };
 		54642173F9F2FC3AD986C887 /* Pods_dailyDetail_dailyDetailUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843B1921845E5D9A9FF959E1 /* Pods_dailyDetail_dailyDetailUITests.framework */; };
 		75AE6EBEFFF091F05621DC56 /* Pods_dailyDetailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3B82039EE400458CC864F /* Pods_dailyDetailTests.framework */; };
 		B0D3F67F8C6C5522B5F845C9 /* Pods_dailyDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531BA9B510A19A1330D3129E /* Pods_dailyDetail.framework */; };
@@ -73,7 +75,9 @@
 		392162D32E6DB6FE00035F63 /* SensorsEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsEvents.swift; sourceTree = "<group>"; };
 		392162D52E6DB71300035F63 /* AppsFlyerEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerEvents.swift; sourceTree = "<group>"; };
 		392162D72E6DB72B00035F63 /* ZhugeEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhugeEvents.swift; sourceTree = "<group>"; };
+		396CD6332E7B127100DCFD53 /* ImageSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectedViewController.swift; sourceTree = "<group>"; };
 		3976592B2E6DDD0F001171BC /* AnalyticsTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTimer.swift; sourceTree = "<group>"; };
+		3976592D2E731C98001171BC /* pointDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointDetailViewController.swift; sourceTree = "<group>"; };
 		478EA2AD6E0A0CC164ACEF4C /* Pods-dailyDetailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyDetailTests.debug.xcconfig"; path = "Target Support Files/Pods-dailyDetailTests/Pods-dailyDetailTests.debug.xcconfig"; sourceTree = "<group>"; };
 		531BA9B510A19A1330D3129E /* Pods_dailyDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dailyDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D3B82039EE400458CC864F /* Pods_dailyDetailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dailyDetailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +144,8 @@
 				3906D0032E6D97B5003EF814 /* AppDelegate.swift */,
 				3906D0052E6D97B5003EF814 /* SceneDelegate.swift */,
 				3906D0072E6D97B5003EF814 /* ViewController.swift */,
+				3976592D2E731C98001171BC /* pointDetailViewController.swift */,
+				396CD6332E7B127100DCFD53 /* ImageSelectedViewController.swift */,
 				3906D0092E6D97B5003EF814 /* Main.storyboard */,
 				3906D00C2E6D97B7003EF814 /* Assets.xcassets */,
 				3906D00E2E6D97B7003EF814 /* LaunchScreen.storyboard */,
@@ -562,7 +568,9 @@
 			files = (
 				3906D0082E6D97B5003EF814 /* ViewController.swift in Sources */,
 				392162CF2E6DB68D00035F63 /* CommonEvent.swift in Sources */,
+				3976592E2E731C98001171BC /* pointDetailViewController.swift in Sources */,
 				392162C42E6DB2EB00035F63 /* SensorsAnalyticsStrategy.swift in Sources */,
+				396CD6342E7B127100DCFD53 /* ImageSelectedViewController.swift in Sources */,
 				392162D62E6DB71300035F63 /* AppsFlyerEvents.swift in Sources */,
 				392162D82E6DB72B00035F63 /* ZhugeEvents.swift in Sources */,
 				3906D0042E6D97B5003EF814 /* AppDelegate.swift in Sources */,
