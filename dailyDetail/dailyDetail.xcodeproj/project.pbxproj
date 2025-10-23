@@ -16,18 +16,6 @@
 		3906D01B2E6D97B8003EF814 /* dailyDetailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906D01A2E6D97B8003EF814 /* dailyDetailTests.swift */; };
 		3906D0252E6D97B8003EF814 /* dailyDetailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906D0242E6D97B8003EF814 /* dailyDetailUITests.swift */; };
 		3906D0272E6D97B8003EF814 /* dailyDetailUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3906D0262E6D97B8003EF814 /* dailyDetailUITestsLaunchTests.swift */; };
-		392162C12E6DB2AB00035F63 /* AnalyticsStrategyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162C02E6DB2AB00035F63 /* AnalyticsStrategyProtocol.swift */; };
-		392162C42E6DB2EB00035F63 /* SensorsAnalyticsStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162C32E6DB2EB00035F63 /* SensorsAnalyticsStrategy.swift */; };
-		392162C72E6DB32400035F63 /* AppsFlyerAnalyticsStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162C62E6DB32400035F63 /* AppsFlyerAnalyticsStrategy.swift */; };
-		392162CA2E6DB35A00035F63 /* ZhugeAnalyticsStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162C92E6DB35A00035F63 /* ZhugeAnalyticsStrategy.swift */; };
-		392162CC2E6DB63A00035F63 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162CB2E6DB63A00035F63 /* AnalyticsManager.swift */; };
-		392162CF2E6DB68D00035F63 /* CommonEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162CE2E6DB68D00035F63 /* CommonEvent.swift */; };
-		392162D42E6DB6FE00035F63 /* SensorsEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162D32E6DB6FE00035F63 /* SensorsEvents.swift */; };
-		392162D62E6DB71300035F63 /* AppsFlyerEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162D52E6DB71300035F63 /* AppsFlyerEvents.swift */; };
-		392162D82E6DB72B00035F63 /* ZhugeEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392162D72E6DB72B00035F63 /* ZhugeEvents.swift */; };
-		396CD6342E7B127100DCFD53 /* ImageSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396CD6332E7B127100DCFD53 /* ImageSelectedViewController.swift */; };
-		3976592C2E6DDD0F001171BC /* AnalyticsTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3976592B2E6DDD0F001171BC /* AnalyticsTimer.swift */; };
-		3976592E2E731C98001171BC /* pointDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3976592D2E731C98001171BC /* pointDetailViewController.swift */; };
 		54642173F9F2FC3AD986C887 /* Pods_dailyDetail_dailyDetailUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843B1921845E5D9A9FF959E1 /* Pods_dailyDetail_dailyDetailUITests.framework */; };
 		75AE6EBEFFF091F05621DC56 /* Pods_dailyDetailTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D3B82039EE400458CC864F /* Pods_dailyDetailTests.framework */; };
 		B0D3F67F8C6C5522B5F845C9 /* Pods_dailyDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 531BA9B510A19A1330D3129E /* Pods_dailyDetail.framework */; };
@@ -66,18 +54,6 @@
 		3906D0202E6D97B8003EF814 /* dailyDetailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dailyDetailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3906D0242E6D97B8003EF814 /* dailyDetailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyDetailUITests.swift; sourceTree = "<group>"; };
 		3906D0262E6D97B8003EF814 /* dailyDetailUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dailyDetailUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		392162C02E6DB2AB00035F63 /* AnalyticsStrategyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsStrategyProtocol.swift; sourceTree = "<group>"; };
-		392162C32E6DB2EB00035F63 /* SensorsAnalyticsStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsAnalyticsStrategy.swift; sourceTree = "<group>"; };
-		392162C62E6DB32400035F63 /* AppsFlyerAnalyticsStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerAnalyticsStrategy.swift; sourceTree = "<group>"; };
-		392162C92E6DB35A00035F63 /* ZhugeAnalyticsStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhugeAnalyticsStrategy.swift; sourceTree = "<group>"; };
-		392162CB2E6DB63A00035F63 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
-		392162CE2E6DB68D00035F63 /* CommonEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEvent.swift; sourceTree = "<group>"; };
-		392162D32E6DB6FE00035F63 /* SensorsEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorsEvents.swift; sourceTree = "<group>"; };
-		392162D52E6DB71300035F63 /* AppsFlyerEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerEvents.swift; sourceTree = "<group>"; };
-		392162D72E6DB72B00035F63 /* ZhugeEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZhugeEvents.swift; sourceTree = "<group>"; };
-		396CD6332E7B127100DCFD53 /* ImageSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectedViewController.swift; sourceTree = "<group>"; };
-		3976592B2E6DDD0F001171BC /* AnalyticsTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsTimer.swift; sourceTree = "<group>"; };
-		3976592D2E731C98001171BC /* pointDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointDetailViewController.swift; sourceTree = "<group>"; };
 		478EA2AD6E0A0CC164ACEF4C /* Pods-dailyDetailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dailyDetailTests.debug.xcconfig"; path = "Target Support Files/Pods-dailyDetailTests/Pods-dailyDetailTests.debug.xcconfig"; sourceTree = "<group>"; };
 		531BA9B510A19A1330D3129E /* Pods_dailyDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dailyDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D3B82039EE400458CC864F /* Pods_dailyDetailTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dailyDetailTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,12 +116,9 @@
 		3906D0022E6D97B5003EF814 /* dailyDetail */ = {
 			isa = PBXGroup;
 			children = (
-				392162BD2E6DB22A00035F63 /* Aanlytics */,
 				3906D0032E6D97B5003EF814 /* AppDelegate.swift */,
 				3906D0052E6D97B5003EF814 /* SceneDelegate.swift */,
 				3906D0072E6D97B5003EF814 /* ViewController.swift */,
-				3976592D2E731C98001171BC /* pointDetailViewController.swift */,
-				396CD6332E7B127100DCFD53 /* ImageSelectedViewController.swift */,
 				3906D0092E6D97B5003EF814 /* Main.storyboard */,
 				3906D00C2E6D97B7003EF814 /* Assets.xcassets */,
 				3906D00E2E6D97B7003EF814 /* LaunchScreen.storyboard */,
@@ -169,103 +142,6 @@
 				3906D0262E6D97B8003EF814 /* dailyDetailUITestsLaunchTests.swift */,
 			);
 			path = dailyDetailUITests;
-			sourceTree = "<group>";
-		};
-		392162BD2E6DB22A00035F63 /* Aanlytics */ = {
-			isa = PBXGroup;
-			children = (
-				3976592A2E6DDCF3001171BC /* Timer */,
-				392162CD2E6DB65D00035F63 /* Event */,
-				392162BF2E6DB26500035F63 /* Strategy */,
-				392162BE2E6DB24A00035F63 /* Manager */,
-			);
-			path = Aanlytics;
-			sourceTree = "<group>";
-		};
-		392162BE2E6DB24A00035F63 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				392162CB2E6DB63A00035F63 /* AnalyticsManager.swift */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		392162BF2E6DB26500035F63 /* Strategy */ = {
-			isa = PBXGroup;
-			children = (
-				392162C02E6DB2AB00035F63 /* AnalyticsStrategyProtocol.swift */,
-				392162C82E6DB32F00035F63 /* Zhuge */,
-				392162C52E6DB2FA00035F63 /* AppsFlyer */,
-				392162C22E6DB2B600035F63 /* Sensors */,
-			);
-			path = Strategy;
-			sourceTree = "<group>";
-		};
-		392162C22E6DB2B600035F63 /* Sensors */ = {
-			isa = PBXGroup;
-			children = (
-				392162C32E6DB2EB00035F63 /* SensorsAnalyticsStrategy.swift */,
-			);
-			path = Sensors;
-			sourceTree = "<group>";
-		};
-		392162C52E6DB2FA00035F63 /* AppsFlyer */ = {
-			isa = PBXGroup;
-			children = (
-				392162C62E6DB32400035F63 /* AppsFlyerAnalyticsStrategy.swift */,
-			);
-			path = AppsFlyer;
-			sourceTree = "<group>";
-		};
-		392162C82E6DB32F00035F63 /* Zhuge */ = {
-			isa = PBXGroup;
-			children = (
-				392162C92E6DB35A00035F63 /* ZhugeAnalyticsStrategy.swift */,
-			);
-			path = Zhuge;
-			sourceTree = "<group>";
-		};
-		392162CD2E6DB65D00035F63 /* Event */ = {
-			isa = PBXGroup;
-			children = (
-				392162CE2E6DB68D00035F63 /* CommonEvent.swift */,
-				392162D22E6DB6D800035F63 /* Sensors */,
-				392162D12E6DB6C100035F63 /* AppsFlyer */,
-				392162D02E6DB6B200035F63 /* Zhuge */,
-			);
-			path = Event;
-			sourceTree = "<group>";
-		};
-		392162D02E6DB6B200035F63 /* Zhuge */ = {
-			isa = PBXGroup;
-			children = (
-				392162D72E6DB72B00035F63 /* ZhugeEvents.swift */,
-			);
-			path = Zhuge;
-			sourceTree = "<group>";
-		};
-		392162D12E6DB6C100035F63 /* AppsFlyer */ = {
-			isa = PBXGroup;
-			children = (
-				392162D52E6DB71300035F63 /* AppsFlyerEvents.swift */,
-			);
-			path = AppsFlyer;
-			sourceTree = "<group>";
-		};
-		392162D22E6DB6D800035F63 /* Sensors */ = {
-			isa = PBXGroup;
-			children = (
-				392162D32E6DB6FE00035F63 /* SensorsEvents.swift */,
-			);
-			path = Sensors;
-			sourceTree = "<group>";
-		};
-		3976592A2E6DDCF3001171BC /* Timer */ = {
-			isa = PBXGroup;
-			children = (
-				3976592B2E6DDD0F001171BC /* AnalyticsTimer.swift */,
-			);
-			path = Timer;
 			sourceTree = "<group>";
 		};
 		90805F5A84F751AA8E598228 /* Frameworks */ = {
@@ -303,7 +179,6 @@
 				3906CFFD2E6D97B5003EF814 /* Frameworks */,
 				3906CFFE2E6D97B5003EF814 /* Resources */,
 				7914E88E24CC95E0898613E8 /* [CP] Embed Pods Frameworks */,
-				5438FBDF401886311FFD8729 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -342,7 +217,6 @@
 				3906D01D2E6D97B8003EF814 /* Frameworks */,
 				3906D01E2E6D97B8003EF814 /* Resources */,
 				95FB09D8E38A642C8AAEDEA3 /* [CP] Embed Pods Frameworks */,
-				57783818998F91FC7125E4A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -425,40 +299,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5438FBDF401886311FFD8729 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail/Pods-dailyDetail-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail/Pods-dailyDetail-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dailyDetail/Pods-dailyDetail-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		57783818998F91FC7125E4A2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6B5F0613A6B298FDA000E0A2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -489,9 +329,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail/Pods-dailyDetail-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail/Pods-dailyDetail-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -506,9 +350,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-dailyDetail-dailyDetailUITests/Pods-dailyDetail-dailyDetailUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -567,20 +415,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3906D0082E6D97B5003EF814 /* ViewController.swift in Sources */,
-				392162CF2E6DB68D00035F63 /* CommonEvent.swift in Sources */,
-				3976592E2E731C98001171BC /* pointDetailViewController.swift in Sources */,
-				392162C42E6DB2EB00035F63 /* SensorsAnalyticsStrategy.swift in Sources */,
-				396CD6342E7B127100DCFD53 /* ImageSelectedViewController.swift in Sources */,
-				392162D62E6DB71300035F63 /* AppsFlyerEvents.swift in Sources */,
-				392162D82E6DB72B00035F63 /* ZhugeEvents.swift in Sources */,
 				3906D0042E6D97B5003EF814 /* AppDelegate.swift in Sources */,
-				392162CA2E6DB35A00035F63 /* ZhugeAnalyticsStrategy.swift in Sources */,
-				392162CC2E6DB63A00035F63 /* AnalyticsManager.swift in Sources */,
-				392162D42E6DB6FE00035F63 /* SensorsEvents.swift in Sources */,
 				3906D0062E6D97B5003EF814 /* SceneDelegate.swift in Sources */,
-				3976592C2E6DDD0F001171BC /* AnalyticsTimer.swift in Sources */,
-				392162C72E6DB32400035F63 /* AppsFlyerAnalyticsStrategy.swift in Sources */,
-				392162C12E6DB2AB00035F63 /* AnalyticsStrategyProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

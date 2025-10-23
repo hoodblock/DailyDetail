@@ -7,10 +7,7 @@ target 'dailyDetail' do
 
   # Pods for dailyDetail
 
-	pod 'SensorsAnalyticsSDK'
 
-	pod 'ZhugeioAnalytics'
-	pod 'AppsFlyerFramework'
 
   pod 'SnapKit'
   pod 'RxCocoa'

@@ -14,18 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        // Override point for customization after application launch.
-        // 注册
-        AnalyticsManager.shared.register(strategy: SensorsAnalyticsStrategy(), enabled: false)
-        AnalyticsManager.shared.register(strategy: AppsFlyerAnalyticsStrategy(), enabled: false)
-        AnalyticsManager.shared.register(strategy: ZhugeAnalyticsStrategy(), enabled: true)
-        // 公共属性
-//        AnalyticsManager.shared.setSuperProperties([
-//            CommonProperty.channel: "AppStore",
-//            CommonProperty.version: Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? ""
-//        ])
-        // 初始化
-        AnalyticsManager.shared.initializeAll(launchOptions: launchOptions)
+    
         return true
     }
 
@@ -44,7 +33,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-        AnalyticsManager.shared.handleOpen(url: url, options: options)
         return true
     }
 
